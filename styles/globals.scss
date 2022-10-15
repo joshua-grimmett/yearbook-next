@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@import './components/page';
+@import './components/card';
+
+@page {
+  size: 17.12in 12.28in;
+  margin: 0;
+}
+
+body, html {
+  margin: 0;
+}
