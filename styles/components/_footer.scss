@@ -1,0 +1,41 @@
+
+.footer {
+  position: relative;
+  top: 5.1mm;
+  height: 7mm;
+  
+  .footer__inner {
+    display: flex;
+    flex-direction: row;
+    font-size: 8.5pt;
+    font-family: 'Lato';
+    height: 100%;
+  }
+
+  background: #ffffff;
+
+  .footer__inner-pageNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    width: 10.5mm;
+    padding-right: 2mm;
+    background-color: #becb30;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .footer__inner-text {
+    position: relative;
+    left: -3.77mm;
+    color: #1d398d;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
