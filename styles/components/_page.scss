@@ -1,0 +1,72 @@
+
+.page {
+  margin: 4.4mm;
+  height: calc(12.28in - 4.4mm*2);
+  background-color: #FEE1E7;
+  page-break-after: always;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.page__header {
+  position: relative;
+  top: 18mm;
+  height: 20.2mm;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F06787;
+}
+
+.page__header--title {
+  position: relative;
+  top: -8.25mm;
+  left: 15.75mm;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @apply uppercase;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50.91pt;
+  line-height: 1.2pt;
+  color: #6D6F71;
+
+  width: 85.3mm;
+  height: 36.9mm;
+  background-image: url('/paper2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.page__content {
+  top: calc(16.2mm);
+  width: 180.9mm;
+  left: 16.5mm;
+  margin: 0 auto;
+  z-index: 10;
+
+  .grid {
+    transform: translateY(-8.1mm);
+    display: grid;
+    row-gap: 5mm;
+    grid-template-columns: repeat(2, 1fr);
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  }
+
+  .grid__class {
+    transform: translateY(-8.1mm);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

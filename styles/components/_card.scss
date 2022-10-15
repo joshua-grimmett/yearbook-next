@@ -1,0 +1,114 @@
+.card .tag {
+  transform: translateY(5.5mm);
+  background-image: url('/paper4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 3;
+  width: 43.7mm;
+  height: 9.3mm;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 3.65mm;
+  white-space: nowrap;
+  margin-top: -9.6mm;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.25));
+}
+
+.card {
+  z-index: 1;
+
+  .card__caption {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: center;
+    max-width: 53.2mm;
+    font-size: 8pt;
+    width: 53.2mm;
+    padding-top: 0.5mm;
+    height: 6mm;
+    line-height: 9pt;
+  }
+}
+
+.card .card__inner {
+  background-color: white;
+  padding: 1.6mm;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card.card__teacher-height {
+  img {
+    max-height: 40mm
+  }
+}
+
+.card.card__teacher {
+  img {
+    width: 53.2mm;
+    aspect-ratio: 1/1;
+  }
+  width: fit-content;
+}
+
+.card.card__teacher:not(:last-child) {
+  margin-bottom: 5mm;
+}
+
+.card.card__class-photo {
+  img {
+    width: 53.2mm;
+    height: 60mm;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    object-position: center 0mm;
+  }
+  width: fit-content;
+  margin-bottom: 5mm;
+  
+  .tag {
+    background-size: 80%;
+    transform: translateY(4.5mm);
+    opacity: 0.97;
+  }
+}
+
+.card__class-photo--double {
+  img {
+    height: 22.85mm !important;
+  }
+}
+
+.text__card {
+  position: relative;
+  top: 34mm;
+  left: -5mm;
+  width: 121.84mm;
+  height: 74mm;
+  padding: 2rem;
+
+  font-size: 8pt;
+  line-height: 11.5pt;
+  
+  background-image: url('/paper1.png');
+  background-size: 100%;
+  background-position: center;
+  
+  .break {
+    margin-bottom: 0.5mm;
+    width: 1mm;
+    height: 1mm;
+    display: block;
+  }
+
+  .centerText {
+    text-align: center;
+  }
+}
