@@ -1,13 +1,12 @@
 import type { NextPage } from 'next'
 
 import Layout from '../components/Layout'
-import Page from '../components/Page'
+import DoublePage from '../components/Page'
 
 const ClassTemplate: NextPage = () => {
   return (
     <Layout>
-      <Page direction="left" title="Prep S"></Page>
-      {/* <Page direction="right" title="Prep D"></Page> */}
+      <DoublePage title="Prep S" pageNumbers={[80, 81]}/>
     </Layout>
   )
 }
