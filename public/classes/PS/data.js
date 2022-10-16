@@ -8,8 +8,8 @@ module.exports = {
   pageNumbers: [40, 41],
   colours: 'prep',
   tableTextStyle: {
-    fontSize: '8.5pt',
-    lineHeight: '12pt'
+    fontSize: '8pt',
+    lineHeight: '11pt'
   },
   classPhotos: [
       { image: '/classes/PS/images/0.JPG', caption: 'Mila and Harper love using their iPads.' },
@@ -19,8 +19,8 @@ module.exports = {
       { image: '/classes/PS/images/1.JPG', caption: 'Jeremy and Kyrie-Cruz fishing for Red Words.' },
       { image: '/classes/PS/images/2.JPG', caption: 'Laura and Zoran writing their Red Words.' },
       { image: '/classes/PS/images/4.JPG', caption: 'Leo and Ante using play dough to strengthen their fingers.' },
-      { image: '/classes/PS/images/5.JPG', caption: 'Chloe and Gabriella enjoying fine motor activities.' },
-      { image: '/classes/PS/images/8.JPG', caption: 'We have had fun learning with our friends this year – Isaac, Noah and Arthur.', top: '-10mm' },
+      { image: '/classes/PS/images/5.JPG', caption: 'Chloe and Gabriella enjoying fine motor activities.', top: '-7mm' },
+      { image: '/classes/PS/images/8.JPG', caption: 'We\'ve had fun learning with our friends this year – Isaac, Noah and Arthur.', top: '-10mm' },
       { image: '/classes/PS/images/13.JPG', caption: 'Ante, Jax and Lennon loving lunch time.', top: '-5mm' },
       { image: '/classes/PS/images/10.JPG', caption: 'Harleigh and Coleton hanging around.', top: '-8mm' },
       { image: '/classes/PS/images/11.JPG', caption: 'Sea World was the BEST!' },

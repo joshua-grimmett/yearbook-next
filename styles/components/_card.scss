@@ -24,14 +24,15 @@
   z-index: 1;
 
   .card__caption {
+    margin: auto;
     display: flex;
     justify-content: center;
     font-family: "Lato";
     font-weight: 400;
     text-align: center;
     max-width: 53.2mm;
-    font-size: 8pt;
-    width: 53.2mm;
+    font-size: 8.5pt;
+    width: 63.2mm;
     padding-top: 0.5mm;
     height: 6mm;
     line-height: 9pt;
@@ -41,7 +42,7 @@
 .card .card__inner {
   background-color: white;
   padding: 1.6mm;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
 .card.card__teacher-height {
@@ -54,11 +55,12 @@
   img {
     width: 53.2mm;
     aspect-ratio: 1/1;
+    object-fit: cover;
   }
   width: fit-content;
 }
 
-.card.card__teacher:not(:last-child) {
+.card.card__teacher:not(:last-child), .card__poster {
   margin-bottom: 5mm;
 }
 
@@ -81,25 +83,28 @@
 }
 
 .card__class-photo--double {
-  img {
-    height: 22.85mm !important;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .text__card {
-  position: relative;
-  top: 34mm;
-  left: -5mm;
-  width: 121.84mm;
-  height: 74mm;
-  padding: 2rem;
-
-  font-size: 8pt;
+  display: flex;
+  position: absolute;
+  top: 30mm;
+  left: -2mm;
+  width: 123.84mm;
+  height: 89mm;
+  padding: 9mm;
+  padding-top: 10mm;
+  font-size: 8.5pt;
   line-height: 11.5pt;
-  
-  background-image: url('/paper1.png');
-  background-size: 100%;
+  background-image: url(/paper1.png);
+  background-size: 128mm 80mm;
   background-position: center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
+  align-items: center;
   
   .break {
     margin-bottom: 0.5mm;
@@ -110,5 +115,52 @@
 
   .centerText {
     text-align: center;
+  }
+}
+
+.tableText__card {
+  width: 95mm;
+  height: 140mm;
+  padding: 5mm 6mm 10mm 6mm;
+  background-image: url('/paper5.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .question {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13pt;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 1.5mm;
+  }
+
+  .table {
+    font-weight: 400;
+    font-size: 7.8pt;
+    line-height: 11pt;
+    color: #221E1F;
+    width: 100%;
+    padding: 0 7mm;
+
+    .table__row {
+      border-top: dotted #A8A9AC;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+      margin-bottom: 0.5mm;
+      .table__cell {
+        width: 50%;
+        text-align: center;
+      }
+    }
+    .table__row:last-child {
+      border-bottom: dotted #A8A9AC;
+    }
   }
 }

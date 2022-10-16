@@ -1,12 +1,16 @@
 
-const ClassPhotoCard = ({ classPhoto, teacherHeight }: { classPhoto: ClassPhoto, teacherHeight?: boolean }) => {
+const ClassPhotoCard = ({ classPhoto, height, width }: { classPhoto: ClassPhoto, height?: string, width?: string }) => {
   return (
-    <div className={`card card__class-photo ${teacherHeight ? 'card__teacher-height' : ''}`}>
+    <div className={`card card__class-photo`}>
       <span className="tag"></span>
       <div className="card__inner">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
-          style={{objectPosition: `center ${classPhoto.top ? classPhoto.top : '0mm'} !important`}} 
+          style={{
+            objectPosition: `${classPhoto.left ? classPhoto.left : 'center'} ${classPhoto.top ? classPhoto.top : '0mm'} !important`,
+            height: height ? height : '',
+            width: width ? width : ''
+          }} 
           src={classPhoto.image} alt={classPhoto.caption} />
         <span className='card__caption'>{classPhoto.caption}</span>
       </div>
@@ -16,11 +20,10 @@ const ClassPhotoCard = ({ classPhoto, teacherHeight }: { classPhoto: ClassPhoto,
 
 export default ClassPhotoCard
 
-const ClassPhotoDoubleCard = ({ classPhotos }: { classPhotos: ClassPhoto[] }) => {
+const ClassPhotoDoubleCard = ({ children }: { children: any }) => {
   return (
     <div className="card__class-photo--double">
-      <ClassPhotoCard classPhoto={classPhotos[0]} />
-      <ClassPhotoCard classPhoto={classPhotos[1]} />
+      {children}
     </div>
   )
 }
@@ -30,5 +33,6 @@ export { ClassPhotoDoubleCard }
 export type ClassPhoto = {
   image: string
   caption: string
-  top?: string
+  top?: string,
+  left?: string
 }
