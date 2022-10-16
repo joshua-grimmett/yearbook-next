@@ -1,7 +1,5 @@
 
 .footer {
-  position: relative;
-  top: 5.1mm;
   height: 7mm;
   
   .footer__inner {
@@ -24,7 +22,7 @@
     padding-right: 2mm;
     background-color: #becb30;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 800;
   }
 
   .footer__inner-text {
@@ -37,5 +35,23 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    b {
+      font-weight: 800;
+    }
+    .sep {
+      margin: 0 1.5mm;
+    }
   }
 }
+
+.footer__right {
+  .footer__inner {
+    flex-direction: row-reverse;
+
+    .footer__inner-pageNumber {
+      align-items: flex-start;
+      padding-left: 2mm;
+    }
+  }
+} 

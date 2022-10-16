@@ -2,7 +2,7 @@
 const config = {
     siteMetadata: {
         fileName: 'Yearbook Draft',
-        footerText: '<b>Yearbook 2022</b> | Coomera Rivers State School | <b>Be Safe. Be Respectful Be a Learner</b>'
+        footerText: '<b>Yearbook 2022</b> <span class="sep">|</span> Coomera Rivers State School <span class="sep">|</span> <b>Be Safe. Be Respectful Be a Learner</b>'
     }
 }
 
