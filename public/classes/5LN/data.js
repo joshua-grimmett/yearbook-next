@@ -68,7 +68,7 @@ module.exports = {
   <span class="break"></span>
   By Lia`,
   textStyle: {
-    fontSize: '8.5pt',
+    fontSize: '7.5pt',
     lineHeight: '10.5pt'
   }
 }

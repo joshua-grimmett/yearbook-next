@@ -52,24 +52,24 @@ module.exports = {
     {name: 'Nayiah Thomspon-Williams', job: 'writing and drawing.'},
   ],
   tableTextStyle: {
-    lineHeight: '8pt',
+    lineHeight: '7pt',
     fontSize: '6.5pt',
   },
   text: `It has been a privilege to be the teachers of 3B this year.  We have shared many fantastic experiences together, learnt together and grown together. Some of the memories we have made together will be cherished forever.  
-  <br>
+  <span class="break"></span>
   Some highlights of the year have been collaborating and learning to work together. Students enjoyed constructing 3D shape buildings and cooking our delicious hedgehog slice for measurement. 
-  <br> 
+  <span class="break"></span>
   Swimming was a fun, action packed week of bus rides and learning new swimming skills. 
-  <br>
+  <span class="break"></span>
   Visiting the Ngutana-Lui Cultural Centre was loads of fun where students learnt about traditional medicines art, and boomerang throwing. 
-  <br>
+  <span class="break"></span>
   The Celebration Expo was a well talked about experience shared with families. 
-  <br>
+  <span class="break"></span>
   Getting crafty and engaging in hands on science experiments proved to always be a hit with 3B.
-  <br>
+  <span class="break"></span>
   It has been an absolute pleasure spending 193 school days watching this beautiful bunch of children grow. We will truly miss you all. Best of luck for year 4.`,
   textStyle: {
-    fontSize: '8.2pt',
-    lineHeight: '11pt'
+    fontSize: '7pt',
+    lineHeight: '10pt'
   }
 }
