@@ -93,14 +93,14 @@
   position: absolute;
   top: 30mm;
   left: -2mm;
-  width: 123.84mm;
-  height: 89mm;
+  width: 120mm;
+  height: 85mm;
   padding: 9mm;
   padding-top: 10mm;
   font-size: 8.5pt;
   line-height: 11.5pt;
   background-image: url(/paper1.png);
-  background-size: 128mm 80mm;
+  background-size: 122mm 75mm;
   background-position: center;
   background-repeat: no-repeat;
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
@@ -116,6 +116,14 @@
   .centerText {
     text-align: center;
   }
+}
+
+.text__card--large {
+  height: 190mm;
+  top: 24mm;
+  padding: 15mm;
+  background-image: url(/paper7.png);
+  background-size: 128mm 174mm;
 }
 
 .tableText__card {
@@ -149,6 +157,11 @@
     padding: 0 7mm;
 
     .table__row {
+      border-style: dotted;
+      border-color: #A8A9AC;
+      border-image-source: url("/dots.svg");
+      border-image-slice: 33% 33%;
+      border-image-repeat: round;
       border-top: dotted #A8A9AC;
       display: grid;
       grid-template-columns: repeat(2, 1fr);

@@ -1,0 +1,47 @@
+.largeClassLeftGrid {
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    right: 0mm;
+  }
+
+  top: 12mm;
+  display: grid;
+  row-gap: 5mm;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+
+.topGrid {
+  top: 12mm;
+  display: grid;
+  row-gap: 5mm;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    left: 88mm
+  }
+}
+
+.grid__class {
+  top: 12mm;
+  width: 178.48mm;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posterGrid {
+  position: relative;
+  top: 17mm;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
