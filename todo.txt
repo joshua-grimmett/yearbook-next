@@ -7,16 +7,17 @@ DONE:
 6. 6WC
 
 TODO:
-1. Prep A
-2. Prep B
-3. Prep C
-4. Prep H
-5. Prep M
+DONE 1. Prep A
+DONE 2. Prep B
+DONE 3. Prep C
+DONE 4. Prep H
+DONE 5. Prep M
 
 6. 1B
 7. 1D
 8. 1J
 9. 1R
+
 10. 1/2MC
 11. 2T
 12. 2FS
