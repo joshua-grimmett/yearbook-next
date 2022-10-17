@@ -13,15 +13,16 @@ DONE 3. Prep C
 DONE 4. Prep H
 DONE 5. Prep M
 
-6. 1B
-7. 1D
-8. 1J
-9. 1R
+DONE 6. 1B
+DONE 7. 1D
+DONE 8. 1J
+DONE 9. 1R
 
 10. 1/2MC
 11. 2T
 12. 2FS
 13. 34C
+
 14. 5C
 15. 5EN
 16. 5M
