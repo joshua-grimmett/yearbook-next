@@ -13,9 +13,11 @@ import _2FS from './public/classes/2FS/data'
 import _2T from './public/classes/2T/data'
 import _3B from './public/classes/3B/data'
 import _3M from './public/classes/3M/data'
+import _34C from './public/classes/34C/data'
 import _4W from './public/classes/4W/data'
 import _5LN from './public/classes/5LN/data'
 import _5W from './public/classes/5W/data'
+import _5C from './public/classes/5C/data'
 import _6WC from './public/classes/6WC/data'
 
 const classes: any[] = [
@@ -31,12 +33,14 @@ const classes: any[] = [
   // _1R,
   // _12MC,
   // _2FS,
-  _2T,
+  // _2T,
   // _3B,
   // _3M,
+  // _34C,
   // _4W,
   // _5LN,
   // _5W,
+  _5C,
   // _6WC,
 ]
 

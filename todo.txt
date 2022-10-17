@@ -18,14 +18,12 @@ DONE 7. 1D
 DONE 8. 1J
 DONE 9. 1R
 
-10. 1/2MC
+DONE 10. 1/2MC
 DONE 11. 2T
-DONE 12. 2FS
-13. 34C
+DONE 12. 2FS (Missing 1 teacher's photo)
+DONE 13. 34C
 
-14. 5C
+DONE 14. 5C (Missing teacher's photo)
 15. 5EN
 16. 5M
-17. 6K
-18. 6L
 19. 6E
