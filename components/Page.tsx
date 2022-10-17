@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
-import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid } from './ClassGrids';
+import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid } from './ClassGrids';
 
 const DoublePage = (props: any) => {
   return (
@@ -28,6 +28,17 @@ const LargeDoublePage = (props: any) => {
 
 export { LargeDoublePage }
 
+
+const LongDoublePage = (props: any) => {
+  return (
+    <div className={`page ${props.className}`}>
+      <LongLeftPage pageNumber={props.pageNumbers[0]} {...props}/>
+      <LongRightPage pageNumber={props.pageNumbers[1]} {...props}/>
+    </div>
+  )
+}
+
+export { LongDoublePage }
 
 const PhotoDoublePage = (props: any) => {
   return (
@@ -61,7 +72,6 @@ const NormalLeftPage = ({
     </div>
   )
 }
-
 
 const NormalRightPage = ({
   pageNumber,
@@ -201,3 +211,57 @@ const PhotoRightPage = ({
 }
 
 export { PhotoRightPage }
+
+const LongLeftPage = ({
+  title, pageNumber, teachers, text, classPhotos, textStyle
+}: { 
+  title: string,
+  pageNumber: number,
+  teachers: Teacher[],
+  text: string,
+  classPhotos: ClassPhoto[],
+  textStyle: object
+}) => {
+  return (
+    <div className="left">
+      <div className="page__content">
+        <Header direction="left" title={title}/>
+        <LongClassLeftGrid teachers={teachers} text={text} classPhotos={classPhotos} textStyle={textStyle}/>
+      </div>
+      <Footer direction="left" pageNumber={pageNumber}/>
+    </div>
+  )
+}
+
+const LongRightPage = ({
+  pageNumber,
+  classPhotos,
+  tableText,
+  question,
+  poster,
+  teachers,
+  tableTextStyle
+}: { 
+  title: string,
+  pageNumber: number,
+  classPhotos: ClassPhoto[],
+  tableText: string,
+  question: string,
+  poster: string,
+  teachers: Teacher[],
+  tableTextStyle: object
+}) => {
+  return (
+    <div className="right">
+      <div className="page__content">
+        <LongClassRightGrid
+          question={question}
+          text={tableText}
+          tableTextStyle={tableTextStyle}
+          classPhotos={classPhotos.slice(teachers.length+1)}
+          poster={poster}/>
+      </div>
+      <Footer direction="right" pageNumber={pageNumber}/>
+    </div>
+  )
+}

@@ -4,7 +4,7 @@ import TeacherCard from "./TeacherCard"
 import ClassPhotoCard from "./ClassPhotoCards"
 import { ClassPhotoDoubleCard } from "./ClassPhotoCards"
 import type { ClassPhoto } from "./ClassPhotoCards"
-import TableTextCard from "./TableTextCard"
+import TableTextCard, { LongTableTextCard } from "./TableTextCard"
 import PosterCard from "./PosterCard"
 
 const ClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: ClassPhoto[], textStyle: object}) => {
@@ -52,6 +52,40 @@ const LargeClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teacher
 }
 
 export { LargeClassLeftGrid }
+
+const LongClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: ClassPhoto[], textStyle: object}) => {
+  return (
+    <>
+      <div className="grid grid-cols-2 largeClassLeftGrid">
+        <div className="left">
+          <TextCard text={text} large={true} textStyle={textStyle}/>
+          <div className="flex flex-row justify-between w-[119mm]">
+            <ClassPhotoCard height='42.23mm' classPhoto={classPhotos[5-teachers.length]}/>
+            <ClassPhotoCard height='42.23mm' classPhoto={classPhotos[6-teachers.length]}/>
+          </div>
+        </div>
+        <div className="right">
+          {
+            teachers.map((teacher, i) => (
+              <TeacherCard key={i} teacher={teacher}/>
+            ))
+          }
+          {
+            teachers.length < 3 && <ClassPhotoCard height='42.23mm' classPhoto={classPhotos[0]}/>
+          }
+          {
+            <>
+              <ClassPhotoCard height='27mm' classPhoto={classPhotos[3-teachers.length]}/>
+              <ClassPhotoCard height='27mm' classPhoto={classPhotos[4-teachers.length]}/>
+            </>
+          }
+        </div>
+      </div>
+    </>
+  )
+}
+
+export { LongClassLeftGrid }
 
 const ClassTopLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: any, textStyle: object} ) => {
   return (
@@ -148,6 +182,31 @@ const ClassBottomRightGrid = ({ classPhotos }: {
     </div>
   )
 }
+
+const LongClassRightGrid = ({ 
+  question,
+  text,
+  classPhotos,
+  poster,
+  tableTextStyle
+}: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
+  return (
+    <>
+      <div className="posterGrid">
+        <LongTableTextCard question={question} text={text} style={tableTextStyle}/>
+        <div className="column">
+          <PosterCard image={poster}/>
+          <ClassPhotoCard height='23.7mm' width='82mm' classPhoto={classPhotos[0]} />
+          <ClassPhotoCard height='23.7mm' width='82mm' classPhoto={classPhotos[1]} />
+          <ClassPhotoCard height='23.7mm' width='82mm' classPhoto={classPhotos[2]} />
+          <ClassPhotoCard height='23.7mm' width='82mm' classPhoto={classPhotos[3]} />
+        </div>
+      </div>
+    </>
+  )
+}
+
+export { LongClassRightGrid }
 
 const PhotoClassRightGrid = ({ 
   classPhotos,

@@ -127,6 +127,14 @@
   background-size: 128mm 174mm;
 }
 
+.tableText__card.tableText__card--long {
+  height: 257mm;
+  background-size: 95mm 266mm;
+  background-image: url(/paper6.png);
+  justify-content: center;
+  padding: 5mm 6mm 10mm 6mm;
+}
+
 .tableText__card {
   width: 95mm;
   height: 140mm;

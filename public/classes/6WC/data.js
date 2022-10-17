@@ -4,7 +4,7 @@ module.exports = {
     {name: 'Sophie Wager', image: '/staff/Wager, Sophie.jpg'},
     {name: 'Rikke Comley', image: '/staff/Comley, Rikke.jpg'}
   ],
-  type: 'xl',
+  type: 'xlp',
   posters: ['/classes/6WC/poster.png', '/classes/6WC/poster.png'],
   pageNumbers: [1,2,3,4],
   colours: 'yr6',

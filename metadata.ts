@@ -10,6 +10,7 @@ import _1D from './public/classes/1D/data'
 import _1J from './public/classes/1J/data'
 import _12MC from './public/classes/12MC/data'
 import _2FS from './public/classes/2FS/data'
+import _2T from './public/classes/2T/data'
 import _3B from './public/classes/3B/data'
 import _3M from './public/classes/3M/data'
 import _4W from './public/classes/4W/data'
@@ -29,7 +30,8 @@ const classes: any[] = [
   // _1J,
   // _1R,
   // _12MC,
-  _2FS,
+  // _2FS,
+  _2T,
   // _3B,
   // _3M,
   // _4W,

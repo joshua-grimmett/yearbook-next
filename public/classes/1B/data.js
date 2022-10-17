@@ -28,7 +28,7 @@ module.exports = {
     fontSize: '6pt',
     lineHeight: '6.2pt'
   },
-  question: 'The best part of 1 was…',
+  question: 'The best part of Year 1 was…',
   tableText: [
     {name: 'Ryka', job: 'Playing with my friends.'},
     {name: 'Ryder', job: 'Going to Loose Parts, building stuff and playing on the hill.'},
