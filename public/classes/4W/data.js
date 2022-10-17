@@ -15,7 +15,7 @@ module.exports = {
     {image: '/classes/4W/images/6.jpg', caption: 'Free dress fun'},
     {image: '/classes/4W/images/7.jpg', caption: 'Cheeky smiles'},
     {image: '/classes/4W/images/8.jpg', caption: 'Go Colman!'},
-    {image: '/classes/4W/images/16.jpg', caption: 'All smiles', top: '-1mm'},
+    {image: '/classes/4W/images/16.jpg', caption: 'All smiles', top: '-16mm'},
     {image: '/classes/4W/images/10.jpg', caption: 'Fun in the sun'},
     {image: '/classes/4W/images/11.jpg', caption: 'Siganto smiles'},
     {image: '/classes/4W/images/12.jpg', caption: 'Hanging with mates', top: '-6mm'},
