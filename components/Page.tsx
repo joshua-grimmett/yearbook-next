@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
-import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid } from './ClassGrids';
+import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid } from './ClassGrids';
 
 const DoublePage = (props: any) => {
   return (
@@ -21,7 +21,7 @@ const LargeDoublePage = (props: any) => {
   return (
     <div className={`page ${props.className}`}>
       <LargeLeftPage pageNumber={props.pageNumbers[0]} {...props}/>
-      <NormalLeftPage pageNumber={props.pageNumbers[1]} {...props}/>
+      <LargeRightPage pageNumber={props.pageNumbers[1]} {...props}/>
     </div>
   )
 }
@@ -32,8 +32,8 @@ export { LargeDoublePage }
 const PhotoDoublePage = (props: any) => {
   return (
     <div className={`page ${props.className}`}>
-      <LargeLeftPage pageNumber={props.pageNumbers[2]} {...props}/>
-      <LargeRightPage pageNumber={props.pageNumbers[3]} {...props}/>
+      <PhotoLeftPage pageNumber={props.pageNumbers[2]} {...props}/>
+      <PhotoRightPage pageNumber={props.pageNumbers[3]} classPhotos={props.classPhotos.slice(12)} poster={props.poster}/>
     </div>
   )
 }
@@ -142,14 +142,62 @@ const LargeRightPage = ({
   return (
     <div className="right">
       <div className="page__content">
-        <ClassRightGrid
+        { tableText && <ClassRightGrid
           question={question}
           text={tableText}
           tableTextStyle={tableTextStyle}
-          classPhotos={classPhotos.slice(teachers.length > 1 ? 7 : 8)}
+          classPhotos={classPhotos.slice(teachers.length > 1 ? 5 : 6)}
           poster={poster}/>
+        }
+        { !tableText && <PhotoClassRightGrid
+          classPhotos={classPhotos.slice(teachers.length > 1 ? 5 : 6)}
+          poster={poster}/>
+        }
       </div>
       <Footer direction="right" pageNumber={pageNumber}/>
     </div>
   )
 }
+
+export { LargeRightPage }
+
+const PhotoLeftPage = ({
+  title, pageNumber, classPhotos
+}: {
+  title: string,
+  pageNumber: number,
+  classPhotos: ClassPhoto[]
+}) => {
+  return (
+    <div className="left">
+      <div className="page__content">
+        <Header direction="left" title={title}/>
+        <PhotoClassLeftGrid classPhotos={classPhotos}/>
+      </div>
+      <Footer direction="left" pageNumber={pageNumber}/>
+    </div>
+  )
+}
+
+export { PhotoLeftPage }
+
+const PhotoRightPage = ({
+  pageNumber,
+  classPhotos,
+  poster
+}: {
+  pageNumber: number,
+  classPhotos: ClassPhoto[],
+  poster: string
+}) => {
+  return (
+    <div className="right">
+      <div className="page__content">
+        <PhotoClassRightGrid classPhotos={classPhotos} poster={poster}/>
+      </div>
+      <Footer direction="right" pageNumber={pageNumber}/>
+    </div>
+  )
+}
+
+export { PhotoRightPage }

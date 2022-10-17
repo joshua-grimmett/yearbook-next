@@ -27,14 +27,14 @@ const ClassTemplate: NextPage = () => {
                 pageNumbers={c.pageNumbers}
                 text={c.text}
                 textStyle={c.textStyle}/>
-              {/* <PhotoDoublePage
+              <PhotoDoublePage
                 className={c.colours}
                 title={c.title}
                 teachers={c.teachers}
                 poster={c.posters[1]}
-                classPhotos={c.classPhotos}
+                classPhotos={c.classPhotos.slice(16)}
                 pageNumbers={c.pageNumbers}
-                /> */}
+                />
             </>
           } 
           /**

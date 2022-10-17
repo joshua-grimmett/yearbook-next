@@ -18,6 +18,41 @@ const ClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Te
 
 export { ClassLeftGrid }
 
+const LargeClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: ClassPhoto[], textStyle: object}) => {
+  return (
+    <>
+      <div className="grid grid-cols-2 largeClassLeftGrid">
+        <div className="left">
+          <TextCard text={text} large={true} textStyle={textStyle}/>
+          <div className="flex flex-row justify-between w-[119mm]">
+            <ClassPhotoCard height='42.23mm' classPhoto={teachers.length < 2 ? classPhotos[4] : classPhotos[3]}/>
+            <ClassPhotoCard height='42.23mm' classPhoto={teachers.length < 2 ? classPhotos[5] : classPhotos[4]}/>
+          </div>
+        </div>
+        <div className="right">
+          {
+            teachers.map((teacher, i) => (
+              <TeacherCard key={i} teacher={teacher}/>
+            ))
+          }
+          {
+            teachers.length < 2 && <ClassPhotoCard height='42.23mm' classPhoto={classPhotos[0]}/>
+          }
+          {
+            <>
+              <ClassPhotoCard height='29.4mm' classPhoto={teachers.length < 2 ? classPhotos[1] : classPhotos[0]}/>
+              <ClassPhotoCard height='29.4mm' classPhoto={teachers.length < 2 ? classPhotos[2] : classPhotos[1]}/>
+              <ClassPhotoCard height='42.23mm' classPhoto={teachers.length < 2 ? classPhotos[3] : classPhotos[2]}/>
+            </>
+          }
+        </div>
+      </div>
+    </>
+  )
+}
+
+export { LargeClassLeftGrid }
+
 const ClassTopLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: any, textStyle: object} ) => {
   return (
     <div className="topGrid">
@@ -113,3 +148,67 @@ const ClassBottomRightGrid = ({ classPhotos }: {
     </div>
   )
 }
+
+const PhotoClassRightGrid = ({ 
+  classPhotos,
+  poster,
+}: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
+  return (
+    <div className="relative top-[12mm]">
+      <div className="grid grid-cols-2">
+        <div className="left">
+          { classPhotos.length !== 12 && <>
+            <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[0]}/>
+            <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[1]}/>
+            </>
+          }
+          {
+            classPhotos.length === 12 && <>
+              <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[0]}/>
+              <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[1]}/>
+              <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[11]}/>
+            </>
+          }
+        </div>
+        <div className="right">
+          <PosterCard image={poster}/>
+        </div>
+      </div>
+      <div className="grid grid-cols-3 gap-x-[5mm] w-full">
+        <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[2]}/>
+        <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[3]}/>
+        <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[4]}/>
+
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[5]}/>
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[6]}/>
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[7]}/>
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[8]}/>
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[9]}/>
+        <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[10]}/>
+      </div>
+    </div>
+  )
+}
+
+export { PhotoClassRightGrid }
+
+const PhotoClassLeftGrid = ({ classPhotos }: {classPhotos: ClassPhoto[]}) => {
+  return (
+    <div className="grid grid-cols-3 gap-x-[5mm] w-full relative top-[55mm]">
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[0]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[1]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[2]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[3]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[4]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[5]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[6]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[7]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[8]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[9]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[10]}/>
+      <ClassPhotoCard height='41.65mm' width='100%' classPhoto={classPhotos[11]}/>
+    </div>
+  )
+}
+
+export { PhotoClassLeftGrid }
