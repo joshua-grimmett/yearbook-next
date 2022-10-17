@@ -23,5 +23,5 @@ DONE  34C
 
 DONE 5C (Missing teacher's photo: Michaela Bevan)
 DONE 5EN (Missing 1 teacher's photo: James Nelson)
-5M
+DONE 5M (Missing teacher's photo: Courtney Morris)
 6E
