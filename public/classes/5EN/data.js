@@ -1,0 +1,68 @@
+module.exports = {
+  title: '5C',
+  teachers: [
+    {name: 'Shauna Evans', image: '/staff/Evans, Shauna.jpg'},
+    {name: 'James Nelson', image: '/staff/Nelson, James.jpg'},
+  ],
+  poster: '/classes/5EN/poster.png',
+  pageNumbers: [0,0],
+  colours: 'yr5',
+  classPhotos: [
+    {image: '/classes/5EN/images/IMG_1.png', caption: 'Friends forever'},
+    {image: '/classes/5EN/images/IMG_2.jpeg', caption: 'Top hats and top marks'},
+    {image: '/classes/5EN/images/IMG_7.jpeg', caption: 'Pals on the playground', top: '-6mm'},
+    {image: '/classes/5EN/images/IMG_4.jpeg', caption: 'Four stories', top: '-7mm'},
+    {image: '/classes/5EN/images/IMG_10.jpeg', caption: 'Chillin’'},
+    {image: '/classes/5EN/images/IMG_11.jpeg', caption: 'Taxi ride'},
+    {image: '/classes/5EN/images/IMG_3.jpeg', caption: 'Building buddies', left: '-8mm'},
+    {image: '/classes/5EN/images/IMG_8.jpeg', caption: 'Out of this world', top: '-11mm'},
+    {image: '/classes/5EN/images/IMG_9.jpeg', caption: 'Sparkle and shine'},
+    {image: '/classes/5EN/images/IMG_14.jpeg', caption: 'Buddies in blue', top: '-6mm'},
+    {image: '/classes/5EN/images/IMG_6.jpeg', caption: 'Smiles in the sun', top: '-3mm'},
+    {image: '/classes/5EN/images/IMG_12.jpeg', caption: 'Grinners are winners'},
+    {image: '/classes/5EN/images/IMG_5.jpeg', caption: 'On the ball'},
+    {image: '/classes/5EN/images/IMG_13.jpeg', caption: 'Climbing high'},
+    {image: '/classes/5EN/images/IMG_15.jpeg', caption: 'Friends, no matter the weather'},
+    {image: '/classes/5EN/images/IMG_16.jpeg', caption: 'Thumbs up'},
+  ],
+  question: 'The best part of Year 5 was…',
+  tableText: [
+    {name: 'Emma Amotawa', job: 'The disco, PJ Day, HPE and the City of Ember unit.'},
+    {name: 'Luka Anderson', job: 'The spectacular Interschool Sports Days.'},
+    {name: 'Ryland Anning', job: 'Interschool Sport and Sports Days.'},
+    {name: 'Tyler Bourke', job: 'The super fun ESports.'},
+    {name: 'Chloe  Brunell', job: 'The amazing City of Ember unit.'},
+    {name: 'Lila  Burnell', job: 'Running Club and Tutu Tuesday.'},
+    {name: 'Ryder Campbell', job: 'Interschool Sport.  It was so much fun!'},
+    {name: 'Thomas Chiswick', job: 'Interschool Sport and the disco.'},
+    {name: 'Jayda Davies', job: 'The super comfortable and fun PJ Day.'},
+    {name: 'Lily Domaschenz', job: 'The super fun Gold Rush excursion and the spooky Halloween disco.'},
+    {name: 'Mason Gray', job: 'Hanging out with my friends at lunch.'},
+    {name: 'Hunter  Haronga', job: 'Coomera Cup Rugby and the sticky Slime Run.'},
+    {name: 'Cody Hartley', job: 'Going to REACH with my best friend, the sunny Surf Safety trip and the Gold Rush excursion.'},
+    {name: 'Mia Heir', job: 'The sunny Surf Safety excursion and the slimy Splatacular.'},
+    {name: 'Aziah Jones', job: 'Interschool Sport and the slimy Slime Run.'},
+    {name: 'Tabatha Lee', job: 'The spectacular Sport Carnival and the loud, fun Hollywood Disco.'},
+    {name: 'Amelia Limmer', job: 'The cooling yet tiring swimming carnival, REACH and the fun Wakakirri.'},
+    {name: 'Ty McGrath', job: 'The amazing Cross Country and the fun Surf Safety.'},
+    {name: 'Ophelia Middleton', job: 'The slimy Slime Run and the fun Gold Rush excursion.'},
+    {name: 'Lily  Mitchell', job: 'Wakakirri, the silly Slime Run, PJ Day and the crazy disco.'},
+    {name: 'Cihan Ozturk', job: 'Book Week, it was super fun and so was the Gold Rush trip.'},
+    {name: 'Chase  Perez', job: 'The Surf Safety excursion – surf, sun and sand!'},
+    {name: 'Dazerel Rawiri', job: 'The awesome disco.'},
+    {name: 'Bianca Seleti', job: 'The super fun Rugby Gala Day and the Spooky Disco.'},
+    {name: 'Tohu Williams', job: 'Everything sport and the disco.'},
+
+  ],
+  tableTextStyle: {
+    lineHeight: '5pt',
+    fontSize: '6pt',
+  },
+  text: `Being in 5EN has truly been an adventure. We have been citizens of the world as we studied it inside (Science units) and out (Space). We have penned great literary works (English), solved problems and deciphered equations (Maths). We have climbed to the tops of mountains (Mystery Doug) and down the deepest of tunnels (City of Ember). We have stretched our minds (our class work) and our muscles (Sports Days). We have been virtuous (MyConnections) and worked virtually (Professor Tech). We have visited the past (Gold Rush) and the future (Global Goals). We have danced (Flash Mob and disco), travelled (excursions) and laughed (a lot).
+  <span class="break"></span>
+  It has been an extraordinary year of dedication, exciting events and exceptional learning. We have made wonderful friends and strengthened our bonds with old ones as we collaborated on our work and accomplished our goals. We have grown in character (and height!) and can’t wait for Year 6.`,
+  textStyle: {
+    fontSize: '8.5pt',
+    lineHeight: '11pt'
+  }
+}

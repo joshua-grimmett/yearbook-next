@@ -1,29 +1,27 @@
-DONE:
-1. Prep S
-2. 3B
-3. 3M
-4. 4W (Missing teacher's photo)
-5. 5LN (Missing both teachers' photos)
-6. 6WC
+DONE Prep S
+DONE 3B
+DONE 3M
+DONE 4W (Missing teacher's photo: Rachel Windley)
+DONE 5LN (Missing both teachers' photos: Susan Leick & James Nelson)
+DONE 6WC
 
-TODO:
-DONE 1. Prep A
-DONE 2. Prep B
-DONE 3. Prep C
-DONE 4. Prep H
-DONE 5. Prep M
+DONE Prep A
+DONE Prep B
+DONE Prep C
+DONE Prep H
+DONE Prep M
 
-DONE 6. 1B
-DONE 7. 1D
-DONE 8. 1J
-DONE 9. 1R
+DONE 1B
+DONE 1D
+DONE 1J
+DONE 1R
 
-DONE 10. 1/2MC
-DONE 11. 2T
-DONE 12. 2FS (Missing 1 teacher's photo)
-DONE 13. 34C
+DONE  1/2MC
+DONE  2T
+DONE  2FS (Missing 1 teacher's photo: Danielle Sturgeon)
+DONE  34C
 
-DONE 14. 5C (Missing teacher's photo)
-15. 5EN
-16. 5M
-19. 6E
+DONE 5C (Missing teacher's photo: Michaela Bevan)
+DONE 5EN (Missing 1 teacher's photo: James Nelson)
+5M
+6E

@@ -18,6 +18,7 @@ import _4W from './public/classes/4W/data'
 import _5LN from './public/classes/5LN/data'
 import _5W from './public/classes/5W/data'
 import _5C from './public/classes/5C/data'
+import _5EN from './public/classes/5EN/data'
 import _6WC from './public/classes/6WC/data'
 
 const classes: any[] = [
@@ -40,7 +41,8 @@ const classes: any[] = [
   // _4W,
   // _5LN,
   // _5W,
-  _5C,
+  // _5C,
+  _5EN,
   // _6WC,
 ]
 
