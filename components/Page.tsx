@@ -258,7 +258,7 @@ const LongRightPage = ({
           question={question}
           text={tableText}
           tableTextStyle={tableTextStyle}
-          classPhotos={classPhotos.slice(teachers.length+1)}
+          classPhotos={classPhotos.slice(teachers.length+3)}
           poster={poster}/>
       </div>
       <Footer direction="right" pageNumber={pageNumber}/>

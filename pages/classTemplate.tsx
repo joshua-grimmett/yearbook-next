@@ -56,7 +56,7 @@ const ClassTemplate: NextPage = () => {
                 title={c.title}
                 teachers={c.teachers}
                 poster={c.posters[1]}
-                classPhotos={c.classPhotos.slice(8)}
+                classPhotos={c.classPhotos.slice(10-c.teachers.length)}
                 pageNumbers={c.pageNumbers}/>
             </>
           }
