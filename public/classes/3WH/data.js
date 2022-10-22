@@ -33,7 +33,7 @@ module.exports = {
     
     {image: '/classes/3WH/images/22.jpg', caption: 'Charlotte, Kendall, Ieshah & Brucie cooking some slice in maths. ', top: '-57mm'},
     {image: '/classes/3WH/images/15.jpg', caption: 'Sofia, Connor, Kaitiaki, Chhaiya & Evie. L celebrating Mrs. Amies birthday. '},
-    {image: '/classes/3WH/images/24.jpg', caption: 'Knoxyn, Kendall, Ieshah, Mischa, Charlie, Gracie & Mason working as a team. ', top: '-9mm'},
+    {image: '/classes/3WH/images/24.jpg', caption: 'Knoxyn, Kendall, Ieshah, Mischa, Charlie, Gracie & Baylin working as a team. ', top: '-9mm'},
     
     {image: '/classes/3WH/images/25.jpg', caption: 'Charlie & Millie answering maths questions hidden outside. '},
     {image: '/classes/3WH/images/26.jpg', caption: 'Maliyaan painting his winning design on the SWAG cubby with his dad. '},

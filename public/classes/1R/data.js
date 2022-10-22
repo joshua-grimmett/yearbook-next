@@ -7,7 +7,7 @@ module.exports = {
   pageNumbers: [40, 41],
   colours: 'yr1',
   classPhotos: [
-    { image: '/classes/1R/images/img1.jpg', caption:  'Hands on math'},
+    { image: '/classes/1R/images/img1.jpg', caption:  'Hands on math', top: '-38mm'},
     { image: '/classes/1R/images/img4.jpg', caption:  'Look at our stick insects!'},
     { image: '/classes/1R/images/img15.jpg', caption: 'Winners are grinners', top: '-23mm'},
     { image: '/classes/1R/images/img5.jpg', caption:  'Holding our pet spiny leaf stick insects'},
@@ -15,7 +15,7 @@ module.exports = {
     { image: '/classes/1R/images/img12.jpg', caption: 'Team mates'},
     { image: '/classes/1R/images/img7.jpg', caption:  'Painting and craft', top: '-10mm'},
     { image: '/classes/1R/images/img8.jpg', caption:  'Playing outside', left: '-27mm'},
-    { image: '/classes/1R/images/img9.jpg', caption:  'Practising place value', top: '-7mm'},
+    { image: '/classes/1R/images/img9.jpg', caption:  'Practising place value', top: '-10mm'},
     { image: '/classes/1R/images/img10.jpg', caption: 'Representing numbers'},
     { image: '/classes/1R/images/img11.jpg', caption: 'Sports fun day', top: '-8mm'},
     { image: '/classes/1R/images/img6.jpg', caption:  'Mathletic champions', top: '-8mm'},
