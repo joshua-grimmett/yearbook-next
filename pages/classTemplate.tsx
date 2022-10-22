@@ -6,7 +6,7 @@ import DoublePage, { LargeDoublePage, PhotoDoublePage, LongDoublePage } from '..
 
 const ClassTemplate: NextPage = () => {
   return (
-    <Layout>
+    <Layout title={classes[0].title}>
       {
         classes.map((c, i) => {
           /**

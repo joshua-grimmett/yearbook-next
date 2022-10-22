@@ -5,14 +5,14 @@ import Footer from './Footer'
 import Header from './Header'
 import useSiteMetadata from './SiteMetadata'
 
-const Layout = ({ children, footer }: any) => {
+const Layout = ({ children, footer, title }: any) => {
     const { fileName } = useSiteMetadata()
     const SpecificFooter = footer || Footer;
 
     return (
         <>
             <Head>
-                <title>{ fileName }</title>
+                <title>{ title ? title : fileName }</title>
             </Head>
             <div id='app'>
                 {children}

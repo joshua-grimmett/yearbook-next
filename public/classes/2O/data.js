@@ -29,7 +29,7 @@ module.exports = {
     fontSize: '8.5pt',
     lineHeight: '12pt'
   },
-  question: 'The best part of Year 1 was…',
+  question: 'When I grow up I want to be…',
   tableText: [
     {name: 'Olivia	Cowdrey', job: 'A Broadway dancer'},
     {name: 'Jaxon	Dolbear', job: 'A doctor'},
