@@ -16,6 +16,7 @@ import _2O from './public/classes/2O/data'
 import _3B from './public/classes/3B/data'
 import _3M from './public/classes/3M/data'
 import _3J from './public/classes/3J/data'
+import _3MC from './public/classes/3MC/data'
 import _3WH from './public/classes/3WH/data'
 import _34C from './public/classes/34C/data'
 import _4W from './public/classes/4W/data'
@@ -45,7 +46,8 @@ const classes: any[] = [
   // _2O,
   // _3B,
   // _3M,
-  _3J,
+  // _3J,
+  _3MC,
   // _3WH,
   // _34C,
   // _4W,
