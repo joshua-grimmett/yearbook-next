@@ -20,6 +20,7 @@ import _3MC from './public/classes/3MC/data'
 import _3WH from './public/classes/3WH/data'
 import _34C from './public/classes/34C/data'
 import _4W from './public/classes/4W/data'
+import _4B from './public/classes/4B/data'
 import _5LN from './public/classes/5LN/data'
 import _5W from './public/classes/5W/data'
 import _5C from './public/classes/5C/data'
@@ -47,10 +48,11 @@ const classes: any[] = [
   // _3B,
   // _3M,
   // _3J,
-  _3MC,
+  // _3MC,
   // _3WH,
   // _34C,
   // _4W,
+  _4B,
   // _5LN,
   // _5W,
   // _5C,
