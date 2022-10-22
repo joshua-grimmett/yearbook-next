@@ -23,6 +23,7 @@ import _4W from './public/classes/4W/data'
 import _4B from './public/classes/4B/data'
 import _4E from './public/classes/4E/data'
 import _4KP from './public/classes/4KP/data'
+import _4R from './public/classes/4R/data'
 import _5LN from './public/classes/5LN/data'
 import _5W from './public/classes/5W/data'
 import _5C from './public/classes/5C/data'
@@ -56,7 +57,8 @@ const classes: any[] = [
   // _4W,
   // _4B,
   // _4E,
-  _4KP,
+  // _4KP,
+  _4R,
   // _5LN,
   // _5W,
   // _5C,
