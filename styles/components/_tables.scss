@@ -1,0 +1,79 @@
+$border-size: 0.01pt;
+$border-colour: #dcdcdc;
+
+.honourRoll {
+  position: absolute;
+  top: 53mm;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  font-family: $text-font;
+  color: #231F20;
+  font-size: 4.5pt;
+  width: 180mm;
+  column-gap: 6mm;
+  max-height: 225mm;
+
+  .honourRoll__col {
+    border-bottom: $border-size solid $border-colour;
+    height: fit-content
+  }
+
+  .honourRoll__rowHeader {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 1mm;
+    background-color: #6d6e70;
+    color: #fff;
+    border-color: $border-colour;
+    border-style: solid;
+    border-width: $border-size $border-size 0 $border-size;
+  }
+
+  .honourRoll__row {
+    display: grid;
+    grid-template-columns: 15% 1fr 30% 30%;
+    border-color: $border-colour;
+    border-style: solid;
+    border-width: $border-size $border-size 0 $border-size;
+
+    span {
+      border-style: solid;
+      border-color: $border-colour;
+      border-width: 0 $border-size 0 0;
+      line-height: 1.2;
+      padding: 0 1px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    hr {
+      border-style: solid;
+      border-color: $border-colour;
+      border-width: $border-size 0 0 0;
+      width: calc(100% + 2px);
+      line-height: 1.2;
+      display: block;
+      position: relative;
+      left: -1px;
+    }
+  }
+
+  .honourRoll__rowDefinitions {
+    background-color: $green;
+    color: white;
+    padding: 0.5mm 0;
+    span {
+      border-width: 0;
+    }
+  }
+
+  .honourRoll__item:nth-child(5n-1), .honourRoll__item:nth-child(5n-4) {
+    text-align: center;
+  }
+
+  .honourRoll__rowHeader:first-child {
+    margin-top: 0;
+  }
+}

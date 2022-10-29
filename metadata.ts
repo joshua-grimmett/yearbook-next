@@ -79,3 +79,7 @@ export { classes }
 import classOf2022 from './public/classOf2022/data.json';
 
 export { classOf2022 }
+
+import honourRoll from './public/honourRoll/data';
+
+export { honourRoll }
