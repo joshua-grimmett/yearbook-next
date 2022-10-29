@@ -31,6 +31,7 @@ import _5B from './public/classes/5B/data'
 import _5EN from './public/classes/5EN/data'
 import _5M from './public/classes/5M/data'
 import _6E from './public/classes/6E/data'
+import _6K from './public/classes/6K/data'
 import _6WC from './public/classes/6WC/data'
 import _6WL from './public/classes/6WL/data'
 
@@ -45,7 +46,7 @@ const classes: any[] = [
   // _1D,
   // _1J,
   //  _1R,
-  //_1O,
+  // _1O,
   // _12MC,
   // _2FS,
   // _2T,
@@ -69,7 +70,12 @@ const classes: any[] = [
   // _5M,
   // _6E,
   // _6WC,
-  _6WL,
+  // _6WL,
+  _6K,
 ]
 
 export { classes }
+
+import classOf2022 from './public/classOf2022/data.json';
+
+export { classOf2022 }
