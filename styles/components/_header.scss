@@ -32,3 +32,36 @@
   background-position: center;
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
 }
+
+.page__header__plain {
+  position: absolute;
+  top: 18mm;
+  height: 20.2mm;
+  width: 213mm;
+  left: -16mm;
+  right: 0;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+.right .page__header__plain {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.page__header__plain--title {
+  // position: relative;
+  margin: 12.85mm;
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  @apply uppercase;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+  line-height: 1.2pt;
+  color: #ffffff;
+}

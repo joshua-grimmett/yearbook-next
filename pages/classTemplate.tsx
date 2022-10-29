@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { classes } from '../metadata';
 
 import Layout from '../components/Layout'
-import DoublePage, { LargeDoublePage, PhotoDoublePage, LongDoublePage } from '../components/Page'
+import DoublePage, { LargeDoublePage, PhotoDoublePage, LongDoublePage, PlainPage } from '../components/Page'
 
 const ClassTemplate: NextPage = () => {
   return (

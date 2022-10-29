@@ -53,3 +53,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.classOfGrid {
+  position: relative;
+  top: calc(46.31mm - 4.5mm);
+  left: -4mm;
+  row-gap: 3mm;
+  column-gap: 3mm;
+  @apply grid grid-cols-3 w-[182.8mm];
+}

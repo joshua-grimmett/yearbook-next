@@ -1,5 +1,5 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header, { PlainHeader } from './Header';
+import Footer, { FixedFooter } from './Footer';
 
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
@@ -265,3 +265,28 @@ const LongRightPage = ({
     </div>
   )
 }
+
+const PlainPage = ({ direction, title, children, pageNumber }: {direction: Direction, title: string, children?: any, pageNumber: number}) => {
+  return (
+    <div className={direction}>
+      <div className="tab">
+        <span>2022</span>
+      </div>
+      <div className="relative page__content">
+        <PlainHeader direction={direction} title={title}/>
+        {children}
+        <FixedFooter direction={direction} pageNumber={pageNumber}/>
+      </div>
+    </div>
+  )
+}
+
+export { PlainPage }
+
+const PlainDoublePage = ({ children }: { children: any }) => (
+  <div className="page plain">
+    {children}
+  </div>
+)
+
+export { PlainDoublePage }

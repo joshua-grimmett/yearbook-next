@@ -3,6 +3,7 @@ import type { Teacher } from "./TeacherCard"
 import TeacherCard from "./TeacherCard"
 import ClassPhotoCard from "./ClassPhotoCards"
 import { ClassPhotoDoubleCard } from "./ClassPhotoCards"
+import ClassOf2022Card from "./ClassOf2022Card"
 import type { ClassPhoto } from "./ClassPhotoCards"
 import TableTextCard, { LongTableTextCard } from "./TableTextCard"
 import PosterCard from "./PosterCard"
@@ -328,3 +329,17 @@ const PhotoClassLeftGrid = ({ classPhotos }: {classPhotos: ClassPhoto[]}) => {
 }
 
 export { PhotoClassLeftGrid }
+
+const ClassOf2022Grid = ({students}: {students: any}) => {
+  if (students === undefined) return <></>
+  return (
+    <div className="classOfGrid">
+      { students.map((student: any, key: number) => ((
+        <ClassOf2022Card student={student} key={key}/>
+        )))
+      }
+    </div>
+  )
+}
+
+export { ClassOf2022Grid }

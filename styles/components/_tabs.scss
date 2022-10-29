@@ -1,0 +1,23 @@
+.right > .tab {
+  left: initial;
+  right: calc(17.44mm - 4.7mm); 
+}
+
+.tab {
+  position: absolute;
+  left: calc(17.44mm - 4.7mm);
+  background-color: #becb30;
+  width: 20mm;
+  height: 10mm;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  span {
+    font-family: 'Montserrat';
+    font-size: 3.2mm;
+    font-weight: 600;
+    color: white;
+    margin: 1mm 0;
+  }
+}
