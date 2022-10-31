@@ -10,6 +10,8 @@ import _1O from './public/classes/1O/data'
 import _1D from './public/classes/1D/data'
 import _1J from './public/classes/1J/data'
 import _12MC from './public/classes/12MC/data'
+import _2A from './public/classes/2A/data'
+import _2B from './public/classes/2B/data'
 import _2FS from './public/classes/2FS/data'
 import _2T from './public/classes/2T/data'
 import _2O from './public/classes/2O/data'
@@ -30,6 +32,7 @@ import _5C from './public/classes/5C/data'
 import _5B from './public/classes/5B/data'
 import _5EN from './public/classes/5EN/data'
 import _5M from './public/classes/5M/data'
+import _56L from './public/classes/56L/data'
 import _6E from './public/classes/6E/data'
 import _6K from './public/classes/6K/data'
 import _6WC from './public/classes/6WC/data'
@@ -48,6 +51,8 @@ const classes: any[] = [
   //  _1R,
   // _1O,
   // _12MC,
+  // _2A,
+  // _2B,
   // _2FS,
   // _2T,
   // _2O,
@@ -68,10 +73,11 @@ const classes: any[] = [
   // _5B,
   // _5EN,
   // _5M,
+  _56L,
   // _6E,
   // _6WC,
   // _6WL,
-  _6K,
+  // _6K,
 ]
 
 export { classes }
