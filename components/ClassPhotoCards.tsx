@@ -1,7 +1,7 @@
 
-const ClassPhotoCard = ({ classPhoto, height, width }: { classPhoto: ClassPhoto, height?: string, width?: string }) => {
+const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: ClassPhoto, height?: string, width?: string, props: any }) => {
   return (
-    <div className={`card card__class-photo`}>
+    <div className={`card card__class-photo ${props.className}`}>
       <span className="tag"></span>
       <div className="card__inner">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -12,7 +12,7 @@ const ClassPhotoCard = ({ classPhoto, height, width }: { classPhoto: ClassPhoto,
             width: width ? width : ''
           }} 
           src={classPhoto.image} alt={classPhoto.caption} />
-        <span className='card__caption'>{classPhoto.caption}</span>
+        {classPhoto.caption && <span className='card__caption'>{classPhoto.caption}</span> }
       </div>
     </div>
   )

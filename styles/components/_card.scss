@@ -13,7 +13,7 @@
   align-items: center;
   text-align: center;
   font-family: 'Montserrat';
-  font-weight: 800;
+  font-weight: 700;
   font-size: 3.65mm;
   white-space: nowrap;
   margin-top: -9.6mm;
@@ -244,4 +244,33 @@
   .classOfCard__questions_row:last-child {
     border-bottom: solid 1px;
   }
+}
+
+.deputyQuote {
+  font-family: $text-font;
+  font-weight: bold;
+  padding: 1mm;
+  max-width: 105mm;
+  text-align: center;
+  position: absolute;
+  top: (32mm + 3.7mm);
+  left: 1.3mm;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary);
+
+  .img {
+    width: 11mm;
+    margin-bottom: 1mm
+  }
+}
+
+.deputyQuote span::before {
+  content: '“'
+}
+
+.deputyQuote span::after {
+  content: '”'
 }

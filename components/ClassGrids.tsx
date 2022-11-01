@@ -7,6 +7,7 @@ import ClassOf2022Card from "./ClassOf2022Card"
 import type { ClassPhoto } from "./ClassPhotoCards"
 import TableTextCard, { LongTableTextCard } from "./TableTextCard"
 import PosterCard from "./PosterCard"
+import DeputyQuote from "./DeputyQuote"
 
 const ClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Teacher[], text: string, classPhotos: ClassPhoto[], textStyle: object}) => {
   return (
@@ -124,6 +125,8 @@ const ClassTopLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers:
     </div>
   )
 }
+
+export { ClassTopLeftGrid }
 
 const ClassBottomLeftGrid = ({ classPhotos, teachers }: {classPhotos: ClassPhoto[], teachers: Teacher[]}) => {
   if (teachers.length === 1) {
@@ -343,3 +346,20 @@ const ClassOf2022Grid = ({students}: {students: any}) => {
 }
 
 export { ClassOf2022Grid }
+
+const DeputyGrid = ({ staff, text, classPhotos, textStyle, quote }: {staff: any, text: string, classPhotos: any, textStyle: object, quote: string} ) => {
+  return (
+    <div className="topGrid">
+      <DeputyQuote text={quote}/>
+      <TextCard text={text} textStyle={{
+          
+        ...textStyle
+      }}/>
+      <div className="right">
+        <TeacherCard teacher={staff}/>
+      </div>
+    </div>
+  )
+}
+
+export { DeputyGrid }

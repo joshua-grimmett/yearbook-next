@@ -3,7 +3,7 @@ import Footer, { FixedFooter } from './Footer';
 
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
-import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid } from './ClassGrids';
+import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid, DeputyGrid } from './ClassGrids';
 
 const DoublePage = (props: any) => {
   return (
@@ -290,3 +290,38 @@ const PlainDoublePage = ({ children }: { children: any }) => (
 )
 
 export { PlainDoublePage }
+
+const DeputyPage = (props: any) => {
+  return (
+    <div className={`page ${props.className}`}>
+      <DeputyLeftPage pageNumber={props.pageNumbers[0]} {...props}/>
+      {/* <NormalRightPage pageNumber={props.pageNumbers[1]} {...props}/> */}
+    </div>
+  )
+}
+
+export { DeputyPage }
+
+const DeputyLeftPage = ({
+  title, pageNumber, staff, text, images, textStyle, quote
+}: { 
+  title: string,
+  pageNumber: number,
+  staff: any,
+  text: string,
+  images: any,
+  textStyle: object,
+  quote: string
+}) => {
+  return (
+    <div className="left">
+      <div className="page__content">
+        <PlainHeader imageInHeader={true} direction="left" title={title}/>
+        <DeputyGrid staff={staff} text={text} textStyle={textStyle} quote={quote}/>
+      </div>
+      <Footer direction="left" pageNumber={pageNumber}/>
+    </div>
+  )
+}
+
+export { DeputyLeftPage }

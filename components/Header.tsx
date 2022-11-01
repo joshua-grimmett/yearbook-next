@@ -12,10 +12,10 @@ const Header = ({ title, direction }: {title?: string, direction?: Direction }) 
 
 export default Header
 
-const PlainHeader = ({ title, direction }: {title?: string, direction?: Direction }) => {
+const PlainHeader = ({ title, direction, imageInHeader }: {title?: string, direction?: Direction, imageInHeader?: boolean }) => {
   return (
     <div className="page__header__plain">
-      <div className="page__header__plain--title">
+      <div className={"page__header__plain--title" + (imageInHeader ? " small_title" : "")}>
         <span>{title}</span>
       </div>
     </div>
