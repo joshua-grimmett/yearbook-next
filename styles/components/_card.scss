@@ -65,6 +65,36 @@
   margin-bottom: 5mm;
 }
 
+.card.card__staff--plain {
+  box-shadow: $shadow1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8mm;
+  width: 57mm;
+  padding-bottom: 3mm;
+  span {
+    margin-bottom: 2.5mm;
+    width: 100%;
+    color: white;
+    font-size: 10pt;
+    font-family: $heading-font;
+    font-weight: 700;
+    text-align: center;
+  }
+  img {
+    width: calc(53.2mm - 6mm);
+    height: 54mm;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
+  background-color: var(--secondary);
+  .card__inner {
+    background: none;
+  }
+}
+
 .card.card__class-photo {
   img {
     width: 53.2mm;
