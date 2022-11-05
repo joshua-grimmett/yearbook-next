@@ -6,7 +6,7 @@
 .tab {
   position: absolute;
   left: calc(17.44mm - 4.7mm);
-  background-color: $green;
+  background-color: var(--secondary);
   width: 20mm;
   height: 10mm;
   display: flex;

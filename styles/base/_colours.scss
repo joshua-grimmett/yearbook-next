@@ -1,42 +1,51 @@
 .prep {
   --bg: #FEE1E7;
   --primary: #F06787;
+  --secondary: #F06787;
 }
 
 .yr1 {
   --primary: #F4964F;
+  --secondary: #F4964F;
   --bg: #FDEADD;
 }
 
 .yr2 {
   --bg: #F9F2DB;
   --primary: #E5B940;
+  --secondary: #E5B940;
 }
 
 .yr3 {
   --bg: #E8F2E0;
   --primary: #8BBE64;
+  --secondary: #8BBE64;
 }
 
 .yr4 {
   --primary: #49A09B;
+  --secondary: #49A09B;
   --bg: #DCEDEB;
 }
 
 .yr5 {
   --primary: #4C6893;
+  --secondary: #4C6893;
   --bg: #DBE1EA;
 }
 
 .yr6 {
   --primary: #965C79;
+  --secondary: #965C79;
   --bg: #EBDFE4;
 }
 
 .plain {
   --primary: #1d398d;
+  --secondary: #becb30;
   --bg: #ffffff;
 }
+
 
 $pageBg: #FEE1E7;
 $pagePrimary: #F06787;
