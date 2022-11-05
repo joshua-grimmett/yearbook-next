@@ -49,7 +49,7 @@ const RightPage = (props: any) => (
           <Photo width={"185mm"} height={"60mm"} photo={props.images[4]}/>
         </div>
 
-        <FixedFooter direction='left' pageNumber={props.pageNumber}/>
+        <FixedFooter direction='right' pageNumber={props.pageNumber}/>
       </div>
   </div>
 )

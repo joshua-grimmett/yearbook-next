@@ -39,7 +39,7 @@ export type ClassPhoto = {
 
 const Photo = (props: any) => (
   <img
-    className="photo"
+    className={`photo ${props.className}`}
     style={{
       objectPosition: `${props.photo.left ? props.photo.left : 'center'} ${props.photo.top ? props.photo.top : '0mm'} !important`,
       height: props.height ? props.height : '',
