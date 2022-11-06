@@ -65,6 +65,10 @@
   margin-bottom: 5mm;
 }
 
+.card.card.card__staff--plain > .card__inner:not(:last-child) {
+  padding-bottom: 10mm;
+}
+
 .card.card__staff--plain {
   box-shadow: $shadow1;
   display: flex;
@@ -311,4 +315,12 @@
 
 .longBreak .break {
   height: 3mm;
+}
+
+h1 {
+  font-size: 15pt;
+  color: #6D6F71;
+  font-weight: 500;
+  font-style: italic;
+  font-family: $text-font;
 }
