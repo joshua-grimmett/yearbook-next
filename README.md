@@ -10,7 +10,7 @@
 - [x] Our P&C
 - [x] Our Volunteers
 - [x] AB Patterson Public Speaking*
-- [ ] Debating
+- [x] Debating
 - [x] Performing Arts - Band
 - [ ] Performing Arts Choir
 - [x] Preforming Arts Strings
