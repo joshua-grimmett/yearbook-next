@@ -12,7 +12,7 @@
 - [x] AB Patterson Public Speaking*
 - [x] Debating
 - [x] Performing Arts - Band
-- [ ] Performing Arts Choir
+- [X] Performing Arts Choir
 - [x] Preforming Arts Strings
 - [x] Music
 - [ ] Sport

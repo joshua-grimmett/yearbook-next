@@ -49,24 +49,18 @@ const RightPage = (props: any) => (
         <PlainHeader textStyle={{
           fontSize: '21pt'
         }} imageInHeader={true} direction='right' title={props.title}/>
-        <div className="topGrid">
-          <div className="right !left-[-37mm] top-[-11mm]">
-            <PlainStaffCard staff={props.staff}/>
-          </div>
-          <div></div>
-        </div>
         
-        {/* Text */}
-        <div className="grid w-[180mm] left-[-3.2mm] grid-cols-3 gap-[5mm] top-[-25mm] relative">
-          <span className='text-justify longBreak' style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text}}></span>
-          <div className='flex flex-col gap-[3mm]'>
-            {props.images.slice(0, 5).map((image: any, key: number) => (
-              <Photo width={"57mm"} height={image.height ?? "53mm"} key={key} photo={image}/>
-            ))}
-          </div>
-          <div className='flex flex-col gap-[3mm]'>
-            {props.images.slice(5, 10).map((image: any, key: number) => (
-              <Photo width={"57mm"} height={image.height ?? "53mm"} key={key} photo={image}/>
+        <div className="grid grid-cols-3 w-[179mm] gap-[5mm] top-[50mm] absolute">
+          <span className='text-justify columns-3 col-span-3' style={{
+            fontSize: '9.5pt',
+            lineHeight: '11.5pt'
+          }} dangerouslySetInnerHTML={{__html: props.text}}></span>
+          <div className="grid grid-cols-3 col-span-3 gap-[3mm] flex-wrap">
+            {props.images.slice(0,8).map((image: any, key: number) => (
+              <>
+              { [0,3,4].includes(key) && <Photo className="col-span-2" photo={image} height="54.5mm" width="100%" key={key}/> }
+              { ![0,3,4].includes(key) && <Photo photo={image} height="54.5mm" width="100%" key={key}/> }
+              </>
             ))}
           </div>
         </div>
@@ -90,9 +84,15 @@ const ExcursionTemplate: NextPage = () => {
   Currently we are working towards a recruitment concert for the grade 3 cohort and our end of year extravaganza ‘Time to Shine’.
   <span class='break' style="height: 3mm"></span> 
   It’s been an amazing year with some very talented students and I am so proud of all their efforts. Bring on 2023!  `;
-  const rightText = `Did you know the effect of music is like fireworks in the brain? No other activity engages multiple parts and networks of the brain simultaneously and students at Coomera Rivers are fortunate to have these brain workouts every single week!
+  const rightText = `It’s Raining Tacos would have to be to be of the year 1-6 Choir’s favourite choir songs for 2022! This year we competed in the Gold Coast Eisteddfod and came away with a second place and gold award with many of our supportive parents believing it should have been a first! We had ponchos, Mexican hats, tacos shells, meat, lettuce, and cheese, cheese, cheese, cheese, CHEESE!  
   <span class='break' style="height: 3mm"></span> 
-  Prep, Year 1 and Year 2 have had a great time in their music lessons with Mrs Blyth learning about the instruments of the orchestra, playing tuned and untuned percussion instruments, singing and playing musical games. Years 3 and 4 classes have had amazing fun with Mrs Zander. They have learned new rhythms and notes, compared and contrasted songs from Australia and around the world and even started composing short songs to play on the ukulele. Year 5 and 6 students have enjoyed testing their aural skills and learning about music through the time and watching some awesome video clips. They’ve created music to fit films and had a hands-on focus for ukulele in Year 5 and acoustic guitar in Year 6.`;
+  The choir also enjoyed performing for our families and friends at ‘Busking at the Café’ in Term 1 and our end of year concert ‘Time To Shine’ in Term 4. They particularly enjoyed singing along in the epic finale to ‘Bang!’ backed by our school band and string players.
+  <span class='break' style="height: 3mm"></span> 
+  Thank you Year 1-6 Choir for an awesome year of music making! I have loved your enthusiasm and commitment each week and watching your absolute love of performing and being on stage. 
+  <span class='break' style="height: 3mm"></span> 
+  Keep on singing!
+  <span class='break' style="height: 3mm"></span> 
+  Love Mrs Blyth.`;
   let leftImages = [
     {image: '/other/band/1.jpg', height: '39mm', top: '-6mm'},
     {image: '/other/band/2.jpg', height: '47mm'},
@@ -105,6 +105,17 @@ const ExcursionTemplate: NextPage = () => {
     {image: '/other/band/9.jpg'},
   ];
 
+  let rightImages = [
+    {image: '/other/choir/1.jpeg', top: '-9mm'},
+    {image: '/other/choir/2.jpeg'},
+    {image: '/other/choir/3.jpeg'},
+    // {image: '/other/choir/4.jpeg'},
+    // {image: '/other/choir/5.jpeg'},
+    {image: '/other/choir/6.jpeg'},
+    {image: '/other/choir/7.jpeg'},
+    {image: '/other/choir/8.jpeg'},
+  ];
+
   let pageNumber = 1;
   return (
     <Layout title={title}>
@@ -115,6 +126,17 @@ const ExcursionTemplate: NextPage = () => {
           text={leftText} 
           images={leftImages} 
           pageNumber={pageNumber}
+          textStyle={{
+            fontSize: '10.5pt',
+            lineHeight: '13pt',
+            top: '30mm',
+            position: 'relative'
+          }}/>
+        <RightPage
+          title={"Performing Arts - Choir"}
+          text={rightText}
+          images={rightImages}
+          pageNumber={pageNumber++}
           textStyle={{
             fontSize: '10.5pt',
             lineHeight: '13pt',
