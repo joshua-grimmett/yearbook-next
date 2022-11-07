@@ -16,7 +16,7 @@
 - [x] Music
 - [ ] Sport
 - [ ] Book Week
-- [ ] Chess
+- [x] Chess
 - [x] Prep Excursion
 - [x] Y2 Excursion number 2
 - [x] Y3 Excursion
