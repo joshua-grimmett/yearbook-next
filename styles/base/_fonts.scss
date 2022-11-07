@@ -1,2 +1,10 @@
 $text-font: 'Lato', 'Open Sans', 'Roboto', Arial, Helvetica, sans-serif;
 $heading-font: 'Montserrat', 'Open Sans', 'Roboto', Arial, Helvetica, sans-serif;
+
+.headingFont {
+  font-family: $heading-font;
+}
+
+.textFont {
+  font-family: $text-font;
+}

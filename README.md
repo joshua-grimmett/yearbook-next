@@ -4,7 +4,8 @@
 - [x] Head of School
 - [x] Head of Student Council
 - [x] Student Council Events
-- [ ] Heads of House Coaching
+- [x] Heads of House
+- [ ] Coaching
 - [x] Bullang Jarjumms Indigenous Education Team
 - [x] Our P&C
 - [x] Our Volunteers

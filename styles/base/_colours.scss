@@ -50,3 +50,24 @@
 $pageBg: #FEE1E7;
 $pagePrimary: #F06787;
 $green: #becb30;
+
+$colman:#EE1E23;
+$pedley: #FECA0C;
+$signato: #01A44F;
+$foxwell: #0054A6;
+
+.bold-foxwell {
+  border-color: $foxwell
+}
+
+.bold-colman {
+  border-color: $colman
+}
+
+.bold-pedley {
+  border-color: $pedley
+}
+
+.bold-signato {
+  border-color: $signato
+}
