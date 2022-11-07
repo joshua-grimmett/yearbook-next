@@ -5,7 +5,7 @@
 - [x] Head of Student Council
 - [x] Student Council Events
 - [ ] Heads of House Coaching
-- [ ] Bullang Jarjumms Indigenous Education Team
+- [x] Bullang Jarjumms Indigenous Education Team
 - [x] Our P&C
 - [x] Our Volunteers
 - [ ] AB Patterson Public Speaking*
