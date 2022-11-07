@@ -4,6 +4,7 @@ import Footer, { FixedFooter } from './Footer';
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
 import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid, DeputyGrid } from './ClassGrids';
+import Tab from './Tab';
 
 const DoublePage = (props: any) => {
   return (
@@ -269,9 +270,7 @@ const LongRightPage = ({
 const PlainPage = ({ direction, title, children, pageNumber }: {direction: Direction, title: string, children?: any, pageNumber: number}) => {
   return (
     <div className={direction}>
-      <div className="tab">
-        <span>2022</span>
-      </div>
+      <Tab/>
       <div className="relative page__content">
         <PlainHeader direction={direction} title={title}/>
         {children}

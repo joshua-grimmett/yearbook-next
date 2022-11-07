@@ -6,12 +6,11 @@ import { PlainHeader } from '../../components/Header'
 
 import Layout from '../../components/Layout'
 import PlainStaffCard from '../../components/PlainStaffCard'
+import Tab from '../../components/Tab'
 
 const LeftPage = (props: any) => (
   <div className="left">
-      <div className="tab">
-        <span>2022</span>
-      </div>
+      <Tab/>
       <div className="relative page__content">
         <PlainHeader textStyle={{
           fontSize: '21pt'
@@ -45,9 +44,7 @@ const LeftPage = (props: any) => (
 
 const RightPage = (props: any) => (
   <div className="right">
-      <div className="tab">
-        <span>2022</span>
-      </div>
+      <Tab/>
       <div className="relative page__content">
         <PlainHeader textStyle={{
           fontSize: '21pt'

@@ -4,12 +4,11 @@ import { FixedFooter } from '../../components/Footer'
 import { PlainHeader } from '../../components/Header'
 
 import Layout from '../../components/Layout'
+import Tab from '../../components/Tab'
 
 const LeftPage = (props: any) => (
   <div className="left">
-      <div className="tab">
-        <span>2022</span>
-      </div>
+      <Tab/>
       <div className="relative page__content">
         <PlainHeader direction='left' title={props.title}/>
         
@@ -37,9 +36,7 @@ const LeftPage = (props: any) => (
 
 const RightPage = (props: any) => (
   <div className="right">
-      <div className="tab">
-        <span>2022</span>
-      </div>
+      <Tab/>
       <div className="relative page__content">
         <PlainHeader direction='right' title={props.title}/>
         <div className="grid w-[180mm] grid-cols-2 gap-[3mm] top-[50mm] relative">
