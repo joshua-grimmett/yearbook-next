@@ -15,7 +15,7 @@
 - [x] Preforming Arts Strings
 - [x] Music
 - [ ] Sport
-- [ ] Book Week
+- [x] Book Week
 - [x] Chess
 - [x] Prep Excursion
 - [x] Y2 Excursion number 2
