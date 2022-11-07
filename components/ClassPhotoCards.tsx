@@ -42,8 +42,8 @@ const Photo = (props: any) => (
     className={`photo ${props.className}`}
     style={{
       objectPosition: `${props.photo.left ? props.photo.left : 'center'} ${props.photo.top ? props.photo.top : '0mm'} !important`,
-      height: props.height ? props.height : '',
-      width: props.width ? props.width : ''
+      height: props.photo.height ?? props.height,
+      width: props.photo.width ?? props.width
     }} 
     src={props.photo.image}/>
 )

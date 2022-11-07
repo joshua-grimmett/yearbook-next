@@ -1,6 +1,6 @@
 module.exports = {
   colours: 'plain',
-  title: "Head of School Council",
+  title: "Head of Student Council",
   textStyle: {
     fontSize: "8.5pt",
     lineHeight: "1.2",
