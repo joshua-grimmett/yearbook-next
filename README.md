@@ -3,11 +3,11 @@
 - [ ] Cover
 - [x] Head of School
 - [x] Head of Student Council
-- [ ] Student Council Events
+- [x] Student Council Events
 - [ ] Heads of House Coaching
 - [ ] Bullang Jarjumms Indigenous Education Team
-- [ ] Our P&C
-- [ ] Our Volunteers
+- [x] Our P&C
+- [x] Our Volunteers
 - [ ] AB Patterson Public Speaking*
 - [ ] Debating
 - [x] Performing Arts - Band
