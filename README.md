@@ -8,7 +8,7 @@
 - [x] Bullang Jarjumms Indigenous Education Team
 - [x] Our P&C
 - [x] Our Volunteers
-- [ ] AB Patterson Public Speaking*
+- [x] AB Patterson Public Speaking*
 - [ ] Debating
 - [x] Performing Arts - Band
 - [ ] Performing Arts Choir
