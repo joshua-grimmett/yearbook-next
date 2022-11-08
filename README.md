@@ -1,4 +1,4 @@
-# Todo
+# First Drafts To Do
 - [ ] Principal’s Page
 - [ ] Cover
 - [x] Head of School
@@ -32,3 +32,86 @@
 - [x] 2B
 - [x] 5W
 - [x] 5/6L
+
+# Edits To Do
+
+## Class of 2022
+- [ ] Names
+  - [ ] "Naylor, Josh", "Naylor, Joshua"
+  - [ ] "Alwan, Maryiae", "Alwan, Mariyae"
+  - [ ] "Palla, Mylie", "Palla, Mylie-Jo"
+  - [ ] "Hendrickson, Lily", "Henricksen, Lily"
+  - [ ] "Kruase, Alisha", "Krause, Alisha"
+- [ ] Photos
+  - [ ] Ethan Johns-Murphy
+  - [ ] Bardot Schmidt
+  - [ ] Christopher Foote
+  - [ ] Phoenix Rain
+  - [ ] Ivy Ridgway
+  - [ ] Maya Adams
+  - [ ] Remmy Bradley
+  - [ ] Rocca Goodger
+  - [ ] Georgia Hill
+  - [ ] Tumoana Kopua
+  - [ ] Roxy Loomes
+  - [ ] Seantayne Rutene
+  - [ ] Kayden Yarbrough
+  - [ ] Mya Yarker
+  - [ ] Rewi Haimona
+  - [ ] Cooper Scott-Thomas
+
+## Other
+- [ ] [Prep Mother’s Day (17/10)](https://www.notion.so/Prep-Mother-s-Day-17-10-844bd757c50b4c15a3218d1834ea1251)
+- [ ] [Under 8s Day (17/10)](https://www.notion.so/Under-8s-Day-17-10-3a326a06b16747dc860de01f57041eed)
+- [ ] [Easter (17/10)](https://www.notion.so/Easter-17-10-040bd2e487114674997e07d5a8047efa)
+- [ ] [Pasifika Learning (17/10)](https://www.notion.so/Pasifika-Learning-17-10-f9897c3e5a0e4fb9a5fc1408dc20261e)
+- [ ] [Inclusion Team (13/10)](https://www.notion.so/Inclusion-Team-13-10-ba7d561628e149b8ad36b06c93afdb99)
+- [ ] [Year 4 Team](https://www.notion.so/Year-4-Team-ea25bae4f38b492194ee356e36751076)
+- [ ] [Innovation & IT (Trinity)](https://www.notion.so/Innovation-IT-Trinity-3a5b67e593824cf6994560af0c6fc583)
+- [ ] [Environmental Warriors + Cyber Agents (Trinity)](https://www.notion.so/Environmental-Warriors-Cyber-Agents-Trinity-59dce9a2fa4d458f83835297363cec91)
+- [ ] [Admin Team (Trinity)](https://www.notion.so/Admin-Team-Trinity-55dd81281aab4540bde1c50f62e911e1)
+- [ ] [Prep Deputy](https://www.notion.so/Prep-Deputy-3cb221d8f74e4fffb582ed4a945064b9)
+- [ ] [Prep B](https://www.notion.so/Prep-B-f4b9dc3f7b5143b2b983c6d112b37b94)
+- [ ] [Prep H](https://www.notion.so/Prep-H-438d6a3a338449ae8cd09557de68255c)
+- [ ] [Prep S](https://www.notion.so/Prep-S-8630f3856905444f84a86abc946f1f87)
+- [ ] [1B](https://www.notion.so/1B-1ef2090244a2480fbc06b02c0975019e)
+- [ ] [1J](https://www.notion.so/1J-2398212afc184a69b7ef963f024d345b)
+- [ ] [1D](https://www.notion.so/1D-16704eb88a744254b491e178186dd2b1)
+- [ ] [1O](https://www.notion.so/1O-03297a7acc624c36941d9775aec4ae36)
+- [ ] [1R](https://www.notion.so/1R-4d0636f34ddb44f9b2d4230e1ba62329)
+- [ ] [2O](https://www.notion.so/2O-3a6e674bb1924879ac55e3c6ced9719d)
+- [ ] [2T](https://www.notion.so/2T-d4f8b95887834f2aa14a73c9132bfff1)
+- [ ] [3J](https://www.notion.so/3J-ff20fc18222d417a9019de5a0fa0f36f)
+- [ ] [3M](https://www.notion.so/3M-d3f8aa0bb44e4e08a699ab8bb83b787e)
+- [ ] [3MC](https://www.notion.so/3MC-a4fa34232dc645739fde594786768e8a)
+- [ ] [4B](https://www.notion.so/4B-536c2e80df6b4d33a5b6af90d3516ecb)
+- [ ] [4E (missing teacher’s photo)](https://www.notion.so/4E-missing-teacher-s-photo-a1f2643f92294e498ecd43d647e26b3a)
+- [ ] [4KP](https://www.notion.so/4KP-6f1b84f841ad4af1982d476101ac4cce)
+- [ ] [4R](https://www.notion.so/4R-0ecdb6e0c2a44c459c357a452bc941dd)
+- [ ] [5C](https://www.notion.so/5C-8f11ee2593f248e18fb681197ff477b0)
+- [ ] [5EN](https://www.notion.so/5EN-5d3cbf2e555f4507847d3220cb993292)
+- [ ] [5LN](https://www.notion.so/5LN-5df646a13c91485a9fe24e64de01cd20)
+- [ ] [6WC](https://www.notion.so/6WC-9d1db4287a704fddba853c51e53209b6)
+- [ ] [34C](https://www.notion.so/34C-06b27128487b4678b889c88bd61c501e)
+- [ ] [2A](https://www.notion.so/2A-7edac1f85f4e4f8eb62c8f5f4fa9b5ac)
+- [ ] [2B](https://www.notion.so/2B-c28067f7d66a439db190b224e3696803)
+- [ ] [5W](https://www.notion.so/5W-4e4d43ee1e1a42e7b816d8da8852d9cf)
+- [ ] [**5B**](https://www.notion.so/5B-8cb9c571c7154c3b8b2d29e3aeb92083)
+- [ ] [3B](https://www.notion.so/3B-900fe2864e324e629fd3bba532060a0b)
+- [ ] [56L](https://www.notion.so/56L-2cece3ff704f4b158ed7dfb4cad24ba1)
+- [ ] [6WL](https://www.notion.so/6WL-fc107baa24b144b2972e17ea3090f01e)
+- [ ] [Class of 2022](https://www.notion.so/Class-of-2022-8a4ba6d06f174d7794b0b85484ef8e9e)
+- [ ] [Year 1 Deputy](https://www.notion.so/Year-1-Deputy-31f4ee86465c4e8f822d450e9e950a2e)
+- [ ] [Year 1 Team](https://www.notion.so/Year-1-Team-c18fa9857c9149e3be8c355e195985fb)
+- [ ] [Year 2 Team](https://www.notion.so/Year-2-Team-a55233f0a0b84e9db797b7f794961540)
+- [ ] [Year 2 Deputy](https://www.notion.so/Year-2-Deputy-68696620ccd8432cb543238d8fabc414)
+- [ ] [Year 5 Deputy](https://www.notion.so/Year-5-Deputy-d9147ab5bf414550bc44dc54926157f9)
+- [ ] [Year 6 Deputy](https://www.notion.so/Year-6-Deputy-1d39a46e95d8425696312deaffa5d0a4)
+## Teachers Photos
+- [ ] 2FS
+- [ ] 4W
+- [ ] 5LN
+- [ ] 5C
+- [ ] 5EN
+- [ ] 5M
+- [ ] 6E
