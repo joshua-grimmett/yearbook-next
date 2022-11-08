@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { Photo } from '../../components/ClassPhotoCards'
 import { FixedFooter } from '../../components/Footer'
 import { PlainHeader } from '../../components/Header'
 
@@ -8,7 +9,7 @@ import Tab from '../../components/Tab'
 import Table from '../../components/Tables'
 
 const TextBlock = (props: any) => (
-  <span className='text-justify longBreak' style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text}}></span>
+  <span className={'text-justify longBreak ' + props.className ?? ''} style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text}}></span>
 )
 
 const LeftPage = (props: any) => (
@@ -18,17 +19,36 @@ const LeftPage = (props: any) => (
         <PlainHeader textStyle={{
           fontSize: '30pt'
         }} imageInHeader={true} direction='left' title={props.title}/>
-        <div className="topGrid">
-          <div></div>
-          <div className="right !left-[-4mm] top-[-11mm]">
-            <PlainStaffCard staff={props.staff}/>
-          </div>
-        </div>
+        <div className="flex flex-col gap-[4mm] left-[120mm] top-[2mm] absolute">
+          <PlainStaffCard staff={props.staff}/>
+          <Photo width="100%" height="55mm" photo={props.images[0]}/>
+          <Photo width="100%" height="55mm" photo={props.images[1]}/>
+      </div>
         
-        <div className="grid w-[117mm] left-[-3.2mm] gap-[5mm] top-[-137mm] relative">
+        <div className="grid w-[117mm] left-[-3.2mm] gap-[5mm] top-[50mm] relative">
           {props.textBlock}
         </div>
-        {/* <Photo className="top-[-22mm] left-[-3.2mm] relative" width={props.images[7].width ?? "118.4mm"} height={props.images[7].height ?? "53mm"} photo={props.images[7]}/> */}
+        
+        <FixedFooter direction='left' pageNumber={props.pageNumber}/>
+      </div>
+  </div>
+)
+
+const RightPage = (props: any) => (
+  <div className="left">
+      <Tab/>
+      <div className="relative page__content">
+        <PlainHeader textStyle={{
+          fontSize: '30pt'
+        }} imageInHeader={true} direction='left' title={props.title}/>
+        
+        <div className="grid grid-cols-3 w-[179mm] left-[-3.2mm] gap-[5mm] top-[50mm] relative">
+          {props.textBlock}
+          { props.images.slice(2).map((image: any, key: number) => (
+            <Photo photo={image} key={key} width="100%" height="40.7mm"/>
+          )) }
+        </div>
+        
         <FixedFooter direction='left' pageNumber={props.pageNumber}/>
       </div>
   </div>
@@ -38,10 +58,10 @@ const ExcursionTemplate: NextPage = () => {
   const colours = 'plain'
   const title = "Sport"
   const textStyle = {
-    fontSize: '7pt',
-    lineHeight: '8pt',
-    top: '30mm',
-    position: 'relative'
+    fontSize: '8.5pt',
+    lineHeight: '9.5pt',
+    // top: '30mm',
+    // position: 'relative'
   };
 
   const textBlock = [
@@ -76,8 +96,11 @@ const ExcursionTemplate: NextPage = () => {
         ['Year 1',	'Sophia-Rose Meese',	'Neko Tuwhangai'],
         ['Prep',	'Harper Preece & Gabriela Walker',	'Marley Menzies'],
         ]}/>,
-      <TextBlock key={4} textStyle={textStyle} text={`<h1>Athletics</h1><span class='break' style="height: 3mm"></span>The rain in the middle of the year kept postponing our Athletics Day and unfortunately, we were unable to hold our Track events at Coomera Rivers. Luckily, we were able to move forward with our field events and select our district athletics team who competed at the Broadwater Athletics trials in August. Congratulations to Scarlet Mariner, Bailey Pulepule, Mylah Raschke, Henko Van der Merwe, Zane Frow and Jacob Johnson who competed for Broadwater at the South Coast Athletics trials. A huge congratulations to Scarlet and Bailey who competed for South Coast at the Queensland Athletics State Championships.<span class='break' style="height: 3mm"></span>`}/>,
-      <Table key={5}
+    ];
+
+  const rightTextBlock = [
+    <TextBlock className="col-span-2 columns-2" key={0} textStyle={textStyle} text={`<h1>Athletics</h1><span class='break' style="height: 3mm"></span>The rain in the middle of the year kept postponing our Athletics Day and unfortunately, we were unable to hold our Track events at Coomera Rivers. Luckily, we were able to move forward with our field events and select our district athletics team who competed at the Broadwater Athletics trials in August. Congratulations to Scarlet Mariner, Bailey Pulepule, Mylah Raschke, Henko Van der Merwe, Zane Frow and Jacob Johnson who competed for Broadwater at the South Coast Athletics trials. A huge congratulations to Scarlet and Bailey who competed for South Coast at the Queensland Athletics State Championships.<span class='break' style="height: 3mm"></span>`}/>,
+      <Table key={1}
       textStyle={textStyle}
       headers={['Age', 'Girls', 'Boys']}
       rows={[
@@ -85,18 +108,23 @@ const ExcursionTemplate: NextPage = () => {
           ['2011',	'Mylah Raschke',	'Jacob Johnson',],
           ['2012',	'Scarlet Mariner',	'Tae Tuwhangai',],
       ]}/>,
-    ];
+  ]
 
   let images = [
-    {image: '/other/band/1.jpg', height: '39mm', top: '-6mm'},
-    {image: '/other/band/2.jpg', height: '47mm'},
-    {image: '/other/band/3.jpg', height: '40mm', top: '-6mm'},
-    {image: '/other/band/4.jpg', height: '40mm'},
-    {image: '/other/band/5.jpg', height: '39mm'},
-    {image: '/other/band/6.jpg', height: '56mm', top: '-7mm'},
-    {image: '/other/band/7.jpg'},
-    {image: '/other/band/8.jpg', height: '46mm'},
-    {image: '/other/band/9.jpg'},
+    {image: '/other/sport/1/1.jpeg'},
+    {image: '/other/sport/1/2.jpeg'},
+    {image: '/other/sport/1/3.jpeg', top: '-8mm'},
+    {image: '/other/sport/1/4.jpeg'},
+    {image: '/other/sport/1/5.jpeg'},
+    {image: '/other/sport/1/6.jpeg'},
+    {image: '/other/sport/1/7.jpeg', top: '-17mm'},
+    {image: '/other/sport/1/8.jpeg'},
+    {image: '/other/sport/1/9.jpeg'},
+    {image: '/other/sport/1/10.jpeg'},
+    {image: '/other/sport/1/11.jpeg'},
+    {image: '/other/sport/1/12.jpeg'},
+    {image: '/other/sport/1/13.jpeg'},
+    {image: '/other/sport/1/14.jpeg'},
   ];
 
   let pageNumber = 1;
@@ -116,7 +144,23 @@ const ExcursionTemplate: NextPage = () => {
             lineHeight: '1.2',
             top: '30mm',
             position: 'relative'
-          }}/>
+          }}
+          images={images}/>
+      <RightPage 
+          title={title} 
+          staff={[
+            {name: 'Mitchell Cope', image: '/staff/Cope, Mitchell.jpg'},
+            {name: 'Jack Burrows', image: '/staff/Burrows, Jack.jpg'}
+          ]}
+          textBlock={rightTextBlock}
+          pageNumber={pageNumber}
+          textStyle={{
+            fontSize: '8.5pt',
+            lineHeight: '1.2',
+            top: '30mm',
+            position: 'relative'
+          }}
+          images={images}/>
       </div>
     </Layout>
   )
