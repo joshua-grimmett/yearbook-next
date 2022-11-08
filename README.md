@@ -15,12 +15,13 @@
 - [X] Performing Arts Choir
 - [x] Preforming Arts Strings
 - [x] Music
-- [ ] Sport
+- [x] Sport
 - [x] Book Week
 - [x] Chess
 - [x] Prep Excursion
 - [x] Y2 Excursion number 2
 - [x] Y3 Excursion
+- [x] Y5 Excursion
 - [x] Y1 From the Team
 - [x] Y2 From the Team
 - [x] Prep Deputy
