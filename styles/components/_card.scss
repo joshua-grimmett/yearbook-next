@@ -334,7 +334,11 @@ h1 {
 h2 {
   font-weight: 500;
   font-size: 10pt;
-  margin: 1mm !important;
+  margin: 4mm 0 1mm 0;
   font-style: italic;
   font-family: $text-font;
+}
+
+.brick {
+  display: inline-block;
 }
