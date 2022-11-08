@@ -35,12 +35,12 @@ const LeftPage = (props: any) => (
 )
 
 const RightPage = (props: any) => (
-  <div className="left">
+  <div className="right">
       <Tab/>
       <div className="relative page__content">
         <PlainHeader textStyle={{
           fontSize: '30pt'
-        }} imageInHeader={true} direction='left' title={props.title}/>
+        }} imageInHeader={true} direction='right' title={props.title}/>
         
         <div className="grid grid-cols-3 w-[179mm] left-[-3.2mm] gap-[5mm] top-[50mm] relative">
           {props.textBlock}
@@ -49,7 +49,7 @@ const RightPage = (props: any) => (
           )) }
         </div>
         
-        <FixedFooter direction='left' pageNumber={props.pageNumber}/>
+        <FixedFooter direction='right' pageNumber={props.pageNumber}/>
       </div>
   </div>
 )
