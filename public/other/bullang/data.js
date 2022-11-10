@@ -7,7 +7,7 @@ module.exports = {
   },
   text: `Jingeri Coomera Rivers!
  
-  It has been another deadly year for our Ballung Jarjumms Team! A major highlight was the introduction of a new student leadership position, our Jarjumms Leader, who in 2022 was Imogen Hay. 
+  It has been another deadly year for our Bullang Jarjumms Team! A major highlight was the introduction of a new student leadership position, our Jarjumms Leader, who in 2022 was Imogen Hay. 
   <span class="break"></span>
   Our amazing school artwork, painted by Rhianne and Rachel Williams, is now on display and can be found in many physical and digital spaces within the school. The elements of the artwork represent the Coomera River and the different community groups which are connected to and come together through the school.
   <span class="break"></span>

@@ -1,7 +1,7 @@
 module.exports = {
   title: '4W',
   teachers: [
-    {name: 'Rachel Windley', image: '/staff/Windley, Rachel.jpg'},
+    {name: 'Kelly Mastaglia', image: '/staff/Mastaglia, Kelly.jpg'},
   ],
   poster: '/classes/4W/poster.png',
   pageNumbers: [0,0],
