@@ -10,8 +10,8 @@ module.exports = {
     { image: '/classes/1J/images/1.jpg', caption:  'Neko, Oscar'},
     { image: '/classes/1J/images/2.jpg', caption:  'Morgan, Zaire'},
     { image: '/classes/1J/images/3.jpg', caption:  'Cordner, Tate'},
-    { image: '/classes/1J/images/5.jpg', caption:  'Marlee, Isla', top: '-5mm'},
-    { image: '/classes/1J/images/4.jpg', caption:  'Georgia, Stella', top: '-7mm'},
+    { image: '/classes/1J/images/5.jpg', caption:  'Georgia, Stella', top: '-5mm'},
+    { image: '/classes/1J/images/4.jpg', caption:  'Marlee, Isla', top: '-7mm'},
     { image: '/classes/1J/images/6.jpg', caption:  'Milliana, River'},
     { image: '/classes/1J/images/7.jpg', caption:  'Stella, Isla, Aimee, Harang'},
     { image: '/classes/1J/images/8.jpg', caption:  'Braxton, Bentley, Onyx'},
@@ -52,11 +52,11 @@ module.exports = {
     { name: 'Neko Tuwhangai', job: 'Visiting the Hall'},
     { name: 'Bentley Van Der Stock', job: 'Sports Day '},
     { name: 'Isla Van Klooster ', job: 'My mum and dad visiting the school'},
-    { name: 'Tate Zeimer ', job: 'The Excursion to Jacob’s Well Environmental Centre'},
+    { name: 'Tate Zeimer ', job: 'The Excursion to Jacobs Well Environmental Centre'},
   ],
   textStyle: {
     fontSize: '8.5pt',
     lineHeight: '12pt'
   },
-  text: `Wow! What an exciting year it has been full of learning and growing into bright and creative Year 1 students. This year we were lucky enough to visit Jacobs Well environmental Centre where we caught little crabs, covered ourselves in mud and fished for tadpoles. It was a highlight that was enjoyed by all! We have also danced our way through the flash mob and worn our house colours with pride at our Sports Fun Day. All students in 1J have worked hard towards their learning with the support of their parents. We couldn’t have done it without our amazing families! We sure have packed in a lot this year. I am so proud of the hard-working students that make up the 1J family. Each and every student has worked collaboratively and given their all this year. Good luck for year next year 1J, I know you are all going to be superstars in year 2!`
+  text: `Wow! What an exciting year it has been full of learning and growing into bright and creative Year 1 students. This year we were lucky enough to visit Jacobs Well Environmental Centre where we caught little crabs, covered ourselves in mud and fished for tadpoles. It was a highlight that was enjoyed by all! We have also danced our way through the flash mob and worn our house colours with pride at our Sports Fun Day. All students in 1J have worked hard towards their learning with the support of their parents. We couldn’t have done it without our amazing families! We sure have packed in a lot this year. I am so proud of the hard-working students that make up the 1J family. Each and every student has worked collaboratively and given their all this year. Good luck for next year 1J, I know you are all going to be superstars in year 2!`
 }

@@ -13,7 +13,7 @@ const ClassLeftGrid = ({ teachers, text, classPhotos, textStyle }: {teachers: Te
   return (
     <>
       <ClassTopLeftGrid teachers={teachers} text={text} classPhotos={classPhotos} textStyle={textStyle}/>
-      { classPhotos.length === 16 && <ClassBottomLeftGrid teachers={teachers} classPhotos={classPhotos}/> }
+      { classPhotos.length <= 16 && <ClassBottomLeftGrid teachers={teachers} classPhotos={classPhotos}/> }
       { classPhotos.length > 16 && <BottomLeft3x3Grid classPhotos={classPhotos}/> }
     </>
   )
@@ -203,10 +203,16 @@ const ClassBottomRightGrid = ({ classPhotos }: {
         <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[3]} />
         <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[4]} />
       </div>
-      <div className="flex flex-col">
+      { classPhotos.length > 7 && <div className="flex flex-col">
+        <ClassPhotoCard height='23.2mm' width='53.5mm' classPhoto={classPhotos[5]} />
+        <ClassPhotoCard height='23.2mm' width='53.5mm' classPhoto={classPhotos[6]} />
+        <ClassPhotoCard height='23.2mm' width='53.5mm' classPhoto={classPhotos[7]} />
+      </div> }
+      { classPhotos.length <= 7 && <div className="flex flex-col">
         <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[5]} />
         <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[6]} />
-      </div>
+      </div> }
+
     </div>
   )
 }
@@ -245,8 +251,8 @@ const PhotoClassRightGrid = ({
       <div className="grid grid-cols-2">
         <div className="left">
           { classPhotos.length !== 12 && classPhotos.length !== 14 && <>
+            <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[0]}/>
             <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[1]}/>
-            <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[2]}/>
             </>
           }
           {
@@ -267,7 +273,22 @@ const PhotoClassRightGrid = ({
         </div>
       </div>
       {
-        classPhotos.length < 14 && <>
+        classPhotos.length > 14 && <>
+          <div className="grid grid-cols-3 gap-x-[5mm] w-full">
+            <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[2]}/>
+            <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[3]}/>
+            <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[4]}/>
+
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[5]}/>
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[6]}/>
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[7]}/>
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[8]}/>
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[9]}/>
+            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[10]}/>
+          </div>
+        </>
+      }
+      { classPhotos.length === 12 && <>
           <div className="grid grid-cols-3 gap-x-[5mm] w-full">
             <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[3]}/>
             <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[4]}/>

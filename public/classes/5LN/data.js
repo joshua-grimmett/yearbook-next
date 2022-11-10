@@ -1,7 +1,7 @@
 module.exports = {
   title: '5LN',
   teachers: [
-    {name: 'Susan Leick', image: '/staff/Leick, Susan.jpg'},
+    {name: 'Susan Leick', image: '/staff/Leick, Susan(2).jpg'},
     {name: 'James Nelson', image: '/staff/Nelson, James.jpg'},
   ],
   poster: '/classes/5LN/poster.png',
@@ -10,7 +10,7 @@ module.exports = {
   classPhotos: [
     {image: '/classes/5LN/images/1.jpg', caption: 'Colter, Nash & Jacob'},
     {image: '/classes/5LN/images/3.jpg', caption: 'Tia & Emma'},
-    {image: '/classes/5LN/images/4.jpg', caption: 'Zachary, Archer, Jacob & Jayden'},
+    {image: '/classes/5LN/images/13.jpg', caption: 'Dukee, Dani, Tiyahn & Leah', top: '-4mm'},
     {image: '/classes/5LN/images/2.jpg', caption: 'Tyrell, Archer & Kyris'},
     {image: '/classes/5LN/images/5.jpg', caption: 'Colter, Archer & Tyrell'},
     {image: '/classes/5LN/images/10.jpg', caption: 'Maya, Alena, Tiara & Ruby'},
@@ -20,10 +20,10 @@ module.exports = {
     {image: '/classes/5LN/images/6.jpg', caption: 'Lia & Alena', top: '-7mm'},
     {image: '/classes/5LN/images/11.jpg', caption: 'Nash & Kevin'},
     {image: '/classes/5LN/images/8.jpg', caption: 'Jackson, Colter & Alisha', top: '-10mm'},
-    {image: '/classes/5LN/images/13.jpg', caption: 'Dukee, Dani, Tiyahn & Leah'},
+    {image: '/classes/5LN/images/4.jpg', caption: 'Zachary, Archer, Jacob & Jayden'},
     {image: '/classes/5LN/images/14.jpg', caption: 'Lia & Tiara'},
-    {image: '/classes/5LN/images/7.jpg', caption: 'Emma, Megan & Lia', top: '-30mm'},
-    {image: '/classes/5LN/images/16.jpg', caption: 'Leon, Oliver & Zachary'}
+    {image: '/classes/5LN/images/7.jpg', caption: 'Emma, Megan & Lia', top: '-37mm'},
+    {image: '/classes/5LN/images/16.jpg', caption: 'Leon, Oliver & Zachary', top: '-26mm'}
   ],
   question: 'The best part of Year 5 was…',
   tableText: [

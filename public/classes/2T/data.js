@@ -60,7 +60,7 @@ module.exports = {
   },
   text: `What an exciting time we have had in 2T this year. We began the year with plenty of rain, this led to many wet weather lunches. Although the weather was miserable, it allowed us to really get to know the others in our class and it gave us the opportunity to collaborate and share ideas with each other.
   <span class="break"></span>
-  We were lucky enough to go on many adventures outside the school together including, swimming lessons, going back in time at our Historical Museum excursion and explore the wildlife at Currumbin. We have also experienced many amazing opportunities at school together which I am sure students will remember for many years.
+  We were lucky enough to go on many adventures outside the school together including, swimming lessons, going back in time at our Historical Museum excursion and explore the wildlife at Currumbin. We have also experienced many amazing opportunities at school together which I am sure the students will remember for many years.
   <span class="break"></span>
   I am proud of the growth and resilience that each student has demonstrated in what has been an interesting and exciting year. I wish all the students in 2T a successful year ahead as they head into Year 3. I will miss seeing their smiling faces every day!`
 }

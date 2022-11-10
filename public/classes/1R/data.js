@@ -15,11 +15,11 @@ module.exports = {
     { image: '/classes/1R/images/img12.jpg', caption: 'Team mates'},
     { image: '/classes/1R/images/img7.jpg', caption:  'Painting and craft', top: '-10mm'},
     { image: '/classes/1R/images/img8.jpg', caption:  'Playing outside', left: '-27mm'},
-    { image: '/classes/1R/images/img9.jpg', caption:  'Practising place value', top: '-10mm'},
+    { image: '/classes/1R/images/img13.jpg', caption: 'We love reading', top: '-7mm'},
     { image: '/classes/1R/images/img10.jpg', caption: 'Representing numbers'},
     { image: '/classes/1R/images/img11.jpg', caption: 'Sports fun day', top: '-8mm'},
     { image: '/classes/1R/images/img6.jpg', caption:  'Mathletic champions', top: '-8mm'},
-    { image: '/classes/1R/images/img13.jpg', caption: 'We love reading'},
+    { image: '/classes/1R/images/img9.jpg', caption:  'Practising place value'},
     { image: '/classes/1R/images/img14.jpg', caption: 'Using iPads to explore Maths'},
     { image: '/classes/1R/images/img3.jpg', caption:  'Harmony Day'},
     { image: '/classes/1R/images/img2.jpg', caption:  'Building 3D shapes'},
@@ -59,6 +59,6 @@ module.exports = {
     fontSize: '8.5pt',
     lineHeight: '12pt'
   },
-  text: `What an incredible year we have had in 1R!  We learnt so much throughout this busy year and I am so proud our hard-working 1R friends. We extended our learning of living things and their environments by visiting the Jacobs Well Environmental Education centre earlier this year – where we explored the mangroves and pond, held crabs and covered ourselves in mud! We learned a lot of interesting facts about minibeasts and were lucky to have our own spiny leaf stick insects in the classroom to observe, handle and watch grow! We celebrated with our families at Under 8’s day, Mother’s and Father’s Day picnics, the cross country and Sports Fun Day. Each student has given their all throughout their learning and have grown into wonderful readers and writers.
+  text: `What an incredible year we have had in 1R!  We learnt so much throughout this busy year and I am so proud of our hard-working 1R friends. We extended our learning of living things and their environments by visiting the Jacobs Well Environmental Education centre earlier this year – where we explored the mangroves and pond, held crabs and covered ourselves in mud! We learned a lot of interesting facts about minibeasts and were lucky to have our own spiny leaf stick insects in the classroom to observe, handle and watch grow! We celebrated with our families at Under 8’s day, Mother’s and Father’s Day picnics, the cross country and Sports Fun Day. Each student has given their all throughout their learning and have grown into wonderful readers and writers.
   <span class="break"></span>I wish our 1R friends the very best as they venture into Year 2, I know you will be amazing!`
 }

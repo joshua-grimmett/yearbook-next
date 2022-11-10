@@ -9,21 +9,21 @@ module.exports = {
   pageNumbers: [1,2,3,4],
   colours: 'yr6',
   classPhotos: [
-    {image: '/classes/6WC/images/img1.jpg', caption: 'Ruby, Zyden, Noah and Hayden'},
+    {image: '/classes/6WC/images/img5.jpg', caption: 'Mickey and Mariyae', top: '-8mm'},
     {image: '/classes/6WC/images/img2.jpg', caption: 'Noah, Hayden, Will and Leo'},
     {image: '/classes/6WC/images/img3.jpg', caption: 'Seb, Wylie, Jaden and Will', top: '-5mm'},
     {image: '/classes/6WC/images/img4.jpg', caption: 'Zyden and Noah'},
-    {image: '/classes/6WC/images/img5.jpg', caption: 'Mickey and Mariyae'},
+    {image: '/classes/6WC/images/img1.jpg', caption: 'Ruby, Zyden, Noah and Hayden'},
     {image: '/classes/6WC/images/img6.jpg', caption: 'Mia, Jazzy and Brooke', top: '0mm'},
     {image: '/classes/6WC/images/img13.jpg', caption: 'Paysin, Alfie, Cooper and Archer', top: '-4mm'},
     {image: '/classes/6WC/images/img8.jpg', caption: 'Kahlani, Zahra, Bella and Simmy'},
     {image: '/classes/6WC/images/img9.jpg', caption: 'Zaria, Willow and Ruby'},
-    {image: '/classes/6WC/images/img7.jpg', caption: 'Finchy, Pippa, Ivy R and Sophie', top: '-5mm'},
-    {image: '/classes/6WC/images/img11.jpg', caption: 'Grayson and Wylie', top: '-5mm'},
-    {image: '/classes/6WC/images/img12.jpg', caption: 'Wylie, Jaden, Seb and Ethan'},
-    {image: '/classes/6WC/images/img10.jpg', caption: 'Kahlani, Shaylen, Dakota and Immy', top: '-7mm'},
+    {image: '/classes/6WC/images/img7.jpg', caption: 'Finchy, Pippa, Ivy R and Sophie', top: '-4mm'},
     {image: '/classes/6WC/images/img14.jpg', caption: 'Mylie and Savanah', top: '-11mm'},
+    {image: '/classes/6WC/images/img12.jpg', caption: 'Wylie, Jaden, Seb and Ethan', top: '-5mm'},
     {image: '/classes/6WC/images/img15.jpg', caption: 'Alfie, Stefan, Paysin and Kobe'},
+    {image: '/classes/6WC/images/img11.jpg', caption: 'Grayson and Wylie', top: '-5mm'},
+    {image: '/classes/6WC/images/img10.jpg', caption: 'Kahlani, Shaylen, Dakota and Immy', top: '-7mm'},
     {image: '/classes/6WC/images/img16.jpg', caption: 'Kobe, Jaden, Memphis and Ethan'},
     {image: '/classes/6WC/images/img17.jpg', caption: 'Alfie, Cooper and Paysin', top: '-2mm'},
     {image: '/classes/6WC/images/img18.jpg', caption: 'Leo and Zaviah'},
@@ -39,7 +39,7 @@ module.exports = {
     {image: '/classes/6WC/images/img40.jpg', caption: 'Annie, Mickey, Mariyae and Ivy W'},
     {image: '/classes/6WC/images/img29.jpg', caption: 'Noah, Phoenix and Hayden', top: '-31mm'},
     {image: '/classes/6WC/images/img39.jpg', caption: 'Gary, Ethan, Memphis and Bekir', top: '-18mm'},
-    {image: '/classes/6WC/images/img31.jpg', caption: 'Sophie, Pippa, Dakota and Ivy R'},
+    {image: '/classes/6WC/images/img31.jpg', caption: 'Sophie, Pippa, Dakota and Ivy R', top: '-9mm'},
     {image: '/classes/6WC/images/img36.jpg', caption: 'Grayson, Will and Phoenix', top: '-4mm'},
     {image: '/classes/6WC/images/img33.jpg', caption: 'Gary, Cooper, Tyrese and Archer'},
     {image: '/classes/6WC/images/img30.jpg', caption: 'Bekir and Zaviah', top: '-9mm'},
@@ -63,9 +63,15 @@ module.exports = {
   We opened our doors to many mouth-watering guests who had heard of our 5-star reputation. These guests not only had their minds blown with the flavour amongst our dishes but who also shared their wisdom in so many areas. This taught us one HUGE lesson and that was to never judge a book by its cover – one smile to a stranger can make a world of difference. You truly never know what someone is going through or just how heavy their ‘backpack’ is so JUST BE KIND.
   <span class="break"></span>
   Doesn’t the saying go, “many hands make light work?” 6WC can certainly be proud of proving that this phrase is true. In addition to our sprinkles, kneading, enhancers and teaspoons, we baked this beauty together. All hands were put to work, all smiles were shared together and with one giant warm and cosy oven, we watched our creation rise (6WC).
-  `,
+  <span class="break"></span>
+  The smell of success wafted across our balcony (remember our birds eye view) and down to lower grades. The scent of Day 10, Deep Learning opportunities and end of year activities was enough to make anyone’s mouth water. There is no doubt that you will all agree that Year 6 is by far the best! This recipe you cannot detest. 
+  <span class="break"></span>
+  Womley adventures will live on and we hope that each of you have successfully taken a bite (that you can chew), swallowed and know that the taste of success is ALL BECAUSE OF YOU! We are beyond proud of each and every one of you and can honestly say that you are no longer apprentices in this recipe of life but have been hatted as qualified chefs ready to whisk, stir and engulf all that high school has to offer. 
+  <span class="break"></span>
+  With Love, 
+  <br/>Mrs Comley and Mrs Wager xo `,
   textStyle: {
-    fontSize: '8.5pt',
-    lineHeight: '10.5pt'
+    fontSize: '8pt',
+    lineHeight: '8pt'
   }
 }

@@ -8,7 +8,7 @@ module.exports = {
   colours: 'yr3',
   classPhotos: [
     {image: '/classes/3M/images/1.jpg', caption: 'Isla and Oliver S enjoying the Easter activities'},
-    {image: '/classes/3M/images/2.jpg', caption: 'Art time with Tahlia, Kayreen and Layla'},
+    {image: '/classes/3M/images/2.jpg', caption: 'Art time with Tahlia, Kayreen and Layla', left: '-11mm'},
     {image: '/classes/3M/images/3.jpg', caption: 'Mason R, Flynn C and Paxton supporting each other after their cross country run'},
     {image: '/classes/3M/images/4.jpg', caption: 'Winning smiles from Layla and Mikayla', top: '-7mm'},
     {image: '/classes/3M/images/5.jpg', caption: 'Noah, Danika and Sarah are solving problems', top: '-4mm'},
@@ -50,6 +50,7 @@ module.exports = {
     {name: 'Sarah Cameron', job: 'playing with Noah.'},
     {name: 'Tahlia Rakaupai', job: 'doing science experiments.'},
   ],
+  question: 'The best part of Year 3 was...',
   tableTextStyle: {
     lineHeight: '7pt',
     fontSize: '7.2pt',

@@ -58,5 +58,5 @@ module.exports = {
   },
   text: `What an amazing year 2022 has been! We have packed so much into such a short amount of time. This year in Prep C we have become writers, readers, scientists, mathematicians, artists, problem solvers and wonderfully kind little people. We have explored nursery rhymes, minibeasts, ocean animals and fairy tales. Our days were filled with rotations and fine motor activities, creative writing and craft, counting and singing. And let’s not forget our Mother’s and Father’s day mornings, our Sea World excursion and our sports Fun Day. The first year of school really is the most exciting and you can see why!
   <span class="break"></span>
-  It is so hard to say goodbye to you Prep C. Each of you has worked so incredibly hard and we could not be prouder of you. Miss Nikki and I can’t wait to see what you achieve next year, we know you will do amazing things`
+  It is so hard to say goodbye to you Prep C. Each of you has worked so incredibly hard and we could not be prouder of you. Miss Nikki and I can’t wait to see what you achieve next year, we know you will do amazing things.`
 }

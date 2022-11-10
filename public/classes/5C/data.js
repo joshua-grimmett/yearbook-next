@@ -8,10 +8,10 @@ module.exports = {
   colours: 'yr5',
   classPhotos: [
     {image: '/classes/5C/images/Photo 1.jpg', caption: 'Global Goal Innovators.'},
-    {image: '/classes/5C/images/Photo 2.jpg', caption: 'Foxwell Pride.'},
+    {image: '/classes/5C/images/Photo 5.jpg', caption: 'Go Pedley!'},
     {image: '/classes/5C/images/Photo 3.jpg', caption: 'Thumbs Up.'},
     {image: '/classes/5C/images/Photo 8.jpg', caption: 'Dream – Book Week Preparation.'},
-    {image: '/classes/5C/images/Photo 5.jpg', caption: 'Go Pedley!'},
+    {image: '/classes/5C/images/Photo 2.jpg', caption: 'Foxwell Pride.'},
     {image: '/classes/5C/images/Photo 6.jpg', caption: 'Poverty gone for good.'},
     {image: '/classes/5C/images/Photo 7.jpg', caption: '5C Friends'},
     {image: '/classes/5C/images/Photo 4.jpg', caption: 'Tradeshow Day'},

@@ -12,7 +12,7 @@ module.exports = {
     {image: '/classes/3B/images/img1.jpg', caption: 'Oliver and Axis'},
     {image: '/classes/3B/images/img2.jpg', caption: 'Nejiahl, Lennox and Ryan', top: '-4mm'},
     {image: '/classes/3B/images/img16.jpg', caption: 'Livie, Naiyah and Isobel', top: '-3mm'},
-    {image: '/classes/3B/images/img13.jpg', caption: 'Isobel, Mia and Indiana'},
+    {image: '/classes/3B/images/img13.jpg', caption: 'Isobel, Mia and Indy'},
     {image: '/classes/3B/images/img12.jpg', caption: 'Jonny-Ray, Ayaan, Michael and Maddox'},
     {image: '/classes/3B/images/img6.jpg', caption: 'Ella and Willow'},
     {image: '/classes/3B/images/img7.jpg', caption: 'Ella, Harper, Kaysha and Mila', top: '-22mm'},
@@ -20,7 +20,7 @@ module.exports = {
     {image: '/classes/3B/images/img9.jpg', caption: 'Kaysha, Maddison and Harper'},
     {image: '/classes/3B/images/img10.jpg', caption: 'Lennox, Keny, Noah and Maddox'},
     {image: '/classes/3B/images/img11.jpg', caption: 'Breanna and Mila'},
-    {image: '/classes/3B/images/img5.jpg', caption: 'Indiana, Maddison and Livie'},
+    {image: '/classes/3B/images/img5.jpg', caption: 'Indy, Maddison and Livie'},
     {image: '/classes/3B/images/img4.jpg', caption: 'Jonny-Ray and Naiyah'},
     {image: '/classes/3B/images/img14.jpg', caption: 'Ayaan, Axis and Taylor'},
     {image: '/classes/3B/images/img15.jpg', caption: 'Noah and Michael'}
@@ -38,8 +38,8 @@ module.exports = {
     {name: 'Jonny-Ray Hughes', job: 'playing with people.'},
     {name: 'Harper Hume', job: 'helping Mrs Bullot and making friends. '},
     {name: 'Nejiahl Jeannin', job: 'getting promoted to Diamond'},
-    {name: 'Ella Jones', job: 'being Student Councillor and having great friends. '},
     {name: 'Ryan Johnston', job: 'having good teachers and making new friends. '},
+    {name: 'Ella Jones', job: 'being Student Councillor and having great friends. '},
     {name: 'Livie Lancaster', job: 'making new friends.'},
     {name: 'Taylor Lurch', job: 'everything!'},
     {name: 'Willow Musson', job: 'being the Environmental Warrior.'},
@@ -49,7 +49,7 @@ module.exports = {
     {name: 'Maddison Russell', job: 'having fun with friends.'},
     {name: 'Ayaan Sangwan', job: 'playing and learning with friends.'},
     {name: 'Mila Smith', job: 'spending time with friends and teachers.'},
-    {name: 'Nayiah Thomspon-Williams', job: 'writing and drawing.'},
+    {name: 'Naiyah Thomspon-Williams', job: 'writing and drawing.'},
   ],
   tableTextStyle: {
     lineHeight: '7pt',
@@ -61,7 +61,7 @@ module.exports = {
   <span class="break"></span>
   Swimming was a fun, action packed week of bus rides and learning new swimming skills. 
   <span class="break"></span>
-  Visiting the Ngutana-Lui Cultural Centre was loads of fun where students learnt about traditional medicines art, and boomerang throwing. 
+  Visiting the Ngutana-Lui Cultural Centre was loads of fun where students learnt about traditional medicines, art, and boomerang throwing. 
   <span class="break"></span>
   The Celebration Expo was a well talked about experience shared with families. 
   <span class="break"></span>

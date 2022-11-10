@@ -97,23 +97,21 @@ module.exports = {
     lineHeight: '5pt',
     fontSize: '5pt',
   },
-  text: `We have had an awesome year in 3WH. We have made so many amazing memories and had some tremendous experiences. We have learnt so much in fun and exciting ways like playground hunts, cooking, constructing cities and opening a museum. We were so incredibly proud of all the hard work the children have put in this year.
+  text: `What an adventurous year we’ve had in 4KP.  
   <span class="break"></span>
-  We loved having our families come in for our HASS celebration day & global goals presentations and we would like to thank the parents who made a special effort to share their cultural celebrations to our class. Learning from people who have lived through it and experienced it is the best kind of lessons and the kids were inspired by you all. 
+  Happy, Fun, Calm, Kind and Respectful were the words students chose to be our GPS words for 4KP in 2022. These words were identified by the students in the first week and have guided our decisions and direction across the year. Together with engaging learning experiences we have encouraged our three teacher goals Connection, Character, and Kindness.  
   <span class="break"></span>
-  3WH loved using our exciting behaviour reward system of TeacherMon and we hope that students will keep these exclusive cards for many years to come. 
+  From the very first day in 4KP when students co-constructed the design of our classroom learning spaces, students have been encouraged to grow as creative, self-regulated, inquisitive life-long learners. It has been exciting and rewarding to see students exceed expectations for these character goals to be Good at learning – Good at life. 4KP has far exceeded our expectations and have developed into a kind, respectful and engaged group of students who are ‘Here for Learning’. 
   <span class="break"></span>
-  We have strived to provide challenging and supportive learning experiences for each and every student to help them reach their full potential. Our excursion was epic! 
+  Character is demonstrated through our actions. We have learnt how to be kind, empathise, and respect ourselves and others. One of our highlights of course was Camp, and together with the many classroom experiences we enjoyed, students were encouraged to continue to learn how to achieve personal and group goals and overcome challenges. 
   <span class="break"></span>
-  We loved throwing boomerangs and creating beautiful traditional dot paintings and of course, dancing to the digeridoo. 
+  Connection has been the foundation for all we do, helping us create a positive class culture and a feeling of belonging. Connecting with experts, other schools and organisations, enhanced learning and helped us develop an understanding of different experiences and perspectives.  
   <span class="break"></span>
-  3WH had the best time creating our very own one day only museum in our classroom full of adorable creatures and amazing displays. 
+  Kindness is our name and kindness is our game! The Kindness Crew have grown to be the kindest version of ourselves. A highlight of 2022 was designing solutions for the Sustainable Global Goals and exploring the concept of entrepreneurial thinking. 
   <span class="break"></span>
-  We were very excited to improve our swimming skills in term 3. We loved sing alongs on the bus trips and couldn’t wait to test out our speed at the swimming carnival. 
-  <span class="break"></span>
-  We are so proud of how far you have come this year. 3WH have made new friends and developed our creativity, collaboration and character. We have reached many goals, mastered many skills, learnt many things and of course we have had a lot of fun and laughter along the way. We have absolutely loved being 3WH’s teachers and will miss them greatly next year.`,
+  We have been privileged to spend the wonderous adventure of 2022 with this amazing group of young people, and to witness their achievements. They are learning how to speak up for themselves, champion others and make a positive impact on the world. 4KP has come so far and we are honoured to have been a part of their journey! `,
   textStyle: {
     fontSize: '8.5pt',
-    lineHeight: '12pt'
+    lineHeight: '11pt'
   }
 }

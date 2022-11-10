@@ -2,27 +2,28 @@ module.exports = {
   title: '1D',
   teachers: [
       {name: 'Bergen Davies', image: '/staff/Davies, Bergen.jpg'},
+      {name: 'Emily White', image: '/staff/White, Emily.jpg'},
   ],
   poster: '/classes/1D/poster.png',
   pageNumbers: [40, 41],
   colours: 'yr1',
   classPhotos: [
-    { image: '/classes/1D/images/1.jpg', caption:  'Math Rotations', top: '-25mm'},
-    { image: '/classes/1D/images/10.jpg', caption: 'Mother’s Day Picnic Fun!'},
-    { image: '/classes/1D/images/3.jpg', caption:  'Sharing is Caring'},
-    { image: '/classes/1D/images/7.jpg', caption:  'Boardgames and food'},
+    { image: '/classes/1D/images/1.jpg', caption:  'Math Rotations', top: '0mm'},
+    { image: '/classes/1D/images/10.jpg', caption: 'Working together to improve reading'},
+    { image: '/classes/1D/images/7.jpg', caption:  'Pedley team working together', top: '-4mm'},
+    { image: '/classes/1D/images/3.jpg', caption:  'Sharing is Caring', top: '-9mm'},
     { image: '/classes/1D/images/5.jpg', caption:  'Group Work', top: '-2mm'},
-    { image: '/classes/1D/images/4.jpg', caption:  'Birthday Fun!'},
-    { image: '/classes/1D/images/6.jpg', caption:  'Pedley team working together'},
-    { image: '/classes/1D/images/8.jpg', caption:  'Science Day'},
+    { image: '/classes/1D/images/4.jpg', caption:  'Boardgames and food'},
+    { image: '/classes/1D/images/6.jpg', caption:  'Birthday fun!'},
+    { image: '/classes/1D/images/14.jpg', caption: 'In 1D we work together', top: '-17mm'},
     { image: '/classes/1D/images/16.jpg', caption: 'Sports Day Fun'},
-    { image: '/classes/1D/images/2.jpg', caption:  'Working together to improve reading'},
+    { image: '/classes/1D/images/2.jpg', caption:  'Mother\'s Day Picnic Fun'},
     { image: '/classes/1D/images/11.jpg', caption: 'iPad partner work', top: '-1mm'},
     { image: '/classes/1D/images/12.jpg', caption: 'Working as cogs in 1D', top: '-1mm'},
-    { image: '/classes/1D/images/9.jpg', caption:  'Making paper caves for our light experiment '},
-    { image: '/classes/1D/images/14.jpg', caption: 'In 1D we work together'},
+    { image: '/classes/1D/images/9.jpg', caption:  'Reading Groups'},
+    { image: '/classes/1D/images/8.jpg', caption:  'Science Day'},
     { image: '/classes/1D/images/15.jpg', caption: 'Being creative in 1D'},
-    { image: '/classes/1D/images/13.jpg', caption: 'Reading Groups'},
+    { image: '/classes/1D/images/13.jpg', caption: 'Making paper caves for our light experiment'},
   ],
   tableTextStyle: {
     fontSize: '7pt',
@@ -58,5 +59,5 @@ module.exports = {
     fontSize: '8.5pt',
     lineHeight: '12pt'
   },
-  text: `Reflecting on the year in 1D, I am incredibly proud of how far these students have come. They have improved not only in their learning but also in their Good at Learning, Good at Life skills. This year has been packed full of exciting events like the excursion to Jacobs Well Environmental Centre, the Flash Mob, Sports Day, Mother’s and Father’s Day Picnics, free dress days and a fire fighters visit as well. In Science, the students became creative designers and made fidget toys and musical instruments, which were all meticulously curated by each student. They have also worked diligently to achieve their math, reading and writing goals. The families of 1D have also been an incredible helpful with continuing their child’s learning at home and being involved in the progress of their learning goals. I wish them the best in their future schooling journey as they venture into Year 2.`
+  text: `Reflecting on the year in 1D, I am incredibly proud of how far these students have come. They have improved not only in their learning but also in their Good at Learning, Good at Life skills. This year has been packed full of exciting events like the excursion to Jacobs Well Environmental Centre, the Flash Mob, Sports Day, Mother’s and Father’s Day Picnics, free dress days and a fire fighters visit as well. In Science, the students became creative designers and made fidget toys and musical instruments, which were all meticulously curated by each student. They have also worked diligently to achieve their math, reading and writing goals. The families of 1D have also been an incredibly helpful with continuing their child’s learning at home and being involved in the progress of their learning goals. I wish them the best in their future schooling journey as they venture into Year 2.`
 }

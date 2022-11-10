@@ -49,7 +49,7 @@ module.exports = {
     {name: 'Savannah Chaudhary', job: 'An ice-cream lady.'},
     {name: 'Sijal Tamak', job: 'A hairdresser.'},
     {name: 'Sofia Shorten', job: 'A mermaid.'},
-    {name: 'Te Meihana', job: 'Livingstone A fire fighter.'},
+    {name: 'Te Meihana Livingstone', job: 'A fire fighter.'},
     {name: 'Troy Scott', job: 'A businessman.'},
     {name: 'Vasi Tei', job: 'A doctor.'},
     {name: 'Wainui Gell', job: 'A teacher. '}
