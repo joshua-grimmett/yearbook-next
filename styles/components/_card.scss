@@ -61,6 +61,13 @@
   width: fit-content;
 }
 
+.card__poster img {
+  height: 107.5mm;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
 .card.card__teacher:not(:last-child), .card__poster {
   margin-bottom: 5mm;
 }
