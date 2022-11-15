@@ -18,7 +18,7 @@ const ClassTemplate: NextPage = () => {
   <span class="break"></span>
   To our students, as you flick through our 2022 Year Book, it’s time to reflect, how are you embracing and contributing to our Coomera Rivers’ community? You’ve still got another year.   Next year you become the ‘very senior seniors of the senior school’! What will be your legacy?
   `;
-  const pageNumber = 0;
+  const pageNumber = 166;
   const staff = {
     name: 'Wendy Artz',
     image: '/staff/Artz, Wendy.jpg'

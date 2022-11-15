@@ -15,7 +15,7 @@ const ClassTemplate: NextPage = () => {
   const text = `Year 6 – The final year of primary school when students are constantly hearing each event or moment labelled with the “This is the last one for primary school,” and “They won’t let you do that in high school!” While it’s a time to be excited for new beginnings, it’s also a time when we speculate whether we’re ready because let’s be honest, change can be hard at any stage of our lives. However, it’s not until we appreciate that we’ve actually been preparing for this moment since the very beginning of our primary school journey, that we realize, we are more than ready! As the Deputy for Year 6, I feel so honored to play a part in our students’ final year of primary school and I am incredibly confident that our teachers have collectively ensured our students are not just ready for high school, but they’re ready for life.  I watch already in awe at how our students want to positively contribute to not only our community but our world and make it a better place and this excites me. 
   <span class="break"></span>
   To our graduating students, I can’t wait to hear of your future successes and to our Year 6 team of teachers, thank you for your commitment and dedication. You are truly an amazing team to work with.  `;
-  const pageNumber = 0;
+  const pageNumber = 182;
   const staff = {
     name: 'Wendy Artz',
     image: '/staff/Artz, Wendy.jpg'
