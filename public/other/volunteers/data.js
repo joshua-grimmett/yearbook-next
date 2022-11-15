@@ -23,5 +23,5 @@ module.exports = {
     {image: "/other/volunteers/6.jpeg", top: '-13mm'},
     {image: "/other/volunteers/7.jpeg", left: '-22mm'},
   ],
-  pageNumber: 2,
+  pageNumber: 33,
 }

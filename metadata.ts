@@ -51,7 +51,7 @@ const classes: any[] = [
   //  _1R,
   // _1O,
   // _12MC,
-  // _2A,
+  _2A,
   // _2B,
   // _2FS,
   // _2T,
@@ -76,7 +76,7 @@ const classes: any[] = [
   // _56L,
   // _6E,
   // _6WC,
-  _6WL,
+  // _6WL,
   // _6K,
 ]
 

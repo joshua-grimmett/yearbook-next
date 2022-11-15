@@ -1,16 +1,18 @@
 
 const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: ClassPhoto, height?: string, width?: string, props: any }) => {
+  const style: any = {
+    objectPosition: `${classPhoto.left ? classPhoto.left : 'center'} ${classPhoto.top ? classPhoto.top : '0mm'} !important`
+  }
+  if (width) style['width'] = width;
+  if (height) style['height'] = height;
+
   return (
     <div className={`card card__class-photo ${props.className}`}>
       <span className="tag"></span>
       <div className="card__inner">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
-          style={{
-            objectPosition: `${classPhoto.left ? classPhoto.left : 'center'} ${classPhoto.top ? classPhoto.top : '0mm'} !important`,
-            height: height ? height : '',
-            width: width ? width : ''
-          }} 
+          style={style} 
           src={classPhoto.image} alt={classPhoto.caption} />
         {classPhoto.caption && <span className='card__caption'>{classPhoto.caption}</span> }
       </div>

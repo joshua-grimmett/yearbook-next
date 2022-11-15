@@ -138,9 +138,9 @@ const ClassBottomLeftGrid = ({ classPhotos, teachers }: {classPhotos: ClassPhoto
       { classPhotos.slice(0,7).map((classPhoto: any, i: number) => {
         if (i === 2) return;
         if (i === 3) return (
-          <ClassPhotoDoubleCard>
-            <ClassPhotoCard key={i} height={teachers.length > 0 ? '16mm' : '23mm'} classPhoto={classPhotos[2]}/>
-            <ClassPhotoCard key={i} height='23mm' classPhoto={classPhotos[3]}/>
+          <ClassPhotoDoubleCard key={i}>
+            <ClassPhotoCard height={teachers.length > 0 ? '16mm' : '23mm'} classPhoto={classPhotos[2]}/>
+            <ClassPhotoCard height='23mm' classPhoto={classPhotos[3]}/>
           </ClassPhotoDoubleCard>
         )
         return <ClassPhotoCard key={i} classPhoto={classPhoto}/>

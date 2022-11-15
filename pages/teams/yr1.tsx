@@ -129,8 +129,8 @@ const PageTemplate: NextPage = () => {
   return (
     <Layout title={title}>
       <div className={`page ${colours}`}>
-        <LeftPage title={title} pageNumber={0}/>
-        <RightPage title={'From the Year 1 Team'} pageNumber={1}/>
+        <LeftPage title={title} pageNumber={98}/>
+        <RightPage title={'From the Year 1 Team'} pageNumber={99}/>
       </div>
     </Layout>
   )
