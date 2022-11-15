@@ -3,8 +3,8 @@ module.exports = {
   teachers: [
       {name: 'Alanna Mackay', image: '/staff/Mackay, Alanna.jpg'},
   ],
-  poster: '/classes/2A/poster.png',
-  pageNumbers: [40, 41],
+  poster: '/posters/newsXpress Coomera.jpg',
+  pageNumbers: [117, 118],
   colours: 'yr2',
   classPhotos: [
     {image: '/classes/2A/images/1.jpg', caption:  'Pyjama Day', top: '-14mm'},
@@ -17,7 +17,7 @@ module.exports = {
     {image: '/classes/2A/images/8.jpg', caption:  'Bullying No Way Day'},
     {image: '/classes/2A/images/9.jpg', caption:  'Making slime', top: '-10mm'},
     {image: '/classes/2A/images/13.jpg', caption: 'Footy and friends', top: '-6mm'},
-    {image: '/classes/2A/images/11.jpg', caption: 'Beenleigh Historical Village and Museum'},
+    {image: '/classes/2A/images/17.jpeg', caption: 'Flexible seating in the classroom', top: '-9mm'},
     {image: '/classes/2A/images/12.jpg', caption: 'The Old Coomera Lockup', top: '-19mm'},
     {image: '/classes/2A/images/10.jpg', caption: 'Easter writing', top: '-15mm'},
     {image: '/classes/2A/images/14.jpg', caption: 'Super Scientists', top: '-16mm'},
