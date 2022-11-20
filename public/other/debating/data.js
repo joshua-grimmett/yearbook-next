@@ -12,11 +12,13 @@ module.exports = {
   We started our year with our traditional ‘Great Debate’ which is now in its 8th year. This is a competition that sees students from Year 6 compete against Pimpama State Secondary College's Year 7 students. The aim of the debate is to prove that it doesn't matter how old you are, if your arguments are strong and well supported with credible evidence, if you deliver your arguments with a passionate confidence, you can persuade any audience. Your voice matters!
   <span class="break"></span>
   The topic up for debate this year was ‘That the school years are the best years of our lives,’ with our team arguing the affirmative side. Representing Coomera Rivers was 
+  <span class="centerText">
   1st speaker: Ashley M
-  2nd speaker: Annabelle F
-  3rd speaker: Annabelle N
-  Silent Speaker: Ella G.  
-  Chairperson: Poppy G
+  <br/>2nd speaker: Annabelle F
+  <br/>3rd speaker: Annabelle N
+  <br/>Silent Speaker: Ella G.  
+  <br/>Chairperson: Poppy G
+  </span>
   <span class="break"></span>
   Our students were phenomenal in their delivery and created an excellent exemplar debate for our neighbouring schools. Our team came away from the debate victorious proving that the school years are the best years of our lives because you always have someone around to carry your backpack.  And it’s not because you have a bad back! 
   <span class="break"></span>
@@ -46,5 +48,5 @@ module.exports = {
     {image: "/other/debating/16.jpeg", height: '95.4mm', left: '-51mm'},
     {image: "/other/debating/17.jpeg", height: '45.4mm'},
   ],
-  pageNumber: 1,
+  pageNumber: 39,
 }

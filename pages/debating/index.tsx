@@ -75,7 +75,7 @@ const CouncilTemplate: NextPage = () => {
     <Layout title={debating.title}>
       <div className={`page ${debating.colours}`}>
         <LeftPage {...debating}/>
-        <RightPage {...debating}/>
+        <RightPage {...debating} pageNumber={debating.pageNumber + 1}/>
       </div>
     </Layout>
   )

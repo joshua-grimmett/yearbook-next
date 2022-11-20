@@ -37,36 +37,36 @@
 # Edits To Do
 
 - [ ] Cover Design (First draft)
-- [ ] P&C President (First Draft)
-- [ ] Coaching (first draft)
-- [ ] Inclusion
-- [ ] Pacifica Learning
+- [x] P&C President (First Draft)
+- [x] Coaching (first draft)
+- [x] Inclusion
+- [x] Pacifica Learning
 - [x] Our P&C (NEW)
-- [ ] Debating (NEW)
-- [ ] Chinese Speaking Comp
-- [ ] Chinese
-- [ ] Performing Arts Band (NEW)
-- [ ] Sport (NEW)
-- [ ] Deep Learning
-- [ ] Easter
-- [ ] Under 8’s Day
-- [ ] Chess (NEW)
-- [ ] From the Prep Deputy
-- [ ] From the Prep Team
-- [ ] From the Year 1 Deputy
-- [ ] Year1 Excursion
+- [x] Debating (NEW)
+- [x] Chinese Speaking Comp
+- [x] Chinese
+- [x] Performing Arts Band (NEW)
+- [x] Sport (NEW)
+- [x] Deep Learning
+- [x] Easter
+- [x] Under 8’s Day
+- [x] Chess (NEW)
+- [x] From the Prep Deputy
+- [x] From the Prep Team
+- [x] From the Year 1 Deputy
+- [x] Year 1 Excursion
 - [x] 2A (NEW)
-- [ ] 2B (NEW)
-- [ ] 2FS
-- [ ] 3MC
-- [ ] Year 4 From the Deputy
-- [ ] Year 4 From the Team
-- [ ] 4R
-- [ ] Year 5 From the Deputy
-- [ ] 5B
-- [ ] 5W (NEW)
-- [ ] Year 6 From the Deputy
-- [ ] 6WL
-- [ ] Class of 2022 (NEW)
+- [x] 2B (NEW)
+- [x] 2FS
+- [x] 3MC
+- [x] Year 4 From the Deputy
+- [x] Year 4 From the Team
+- [x] 4R
+- [x] Year 5 From the Deputy
+- [x] 5B
+- [x] 5W (NEW)
+- [x] Year 6 From the Deputy
+- [x] 6WL
+- [x] Class of 2022 (NEW)
  
 

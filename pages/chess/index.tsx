@@ -21,10 +21,12 @@ const LeftPage = (props: any) => (
         <div className="grid w-[179mm] gap-[5mm] top-[50mm] absolute">
           <div className="grid grid-cols-2 gap-[3mm]">
             <span className='text-justify longBreak' style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text[0]}}></span>
-            <Table textStyle={props.textStyle} headers={props.tables[0].headers} rows={props.tables[0].rows}/>
+            <div>
+              <Table textStyle={props.textStyle} headers={props.tables[0].headers} rows={props.tables[0].rows}/>
+              <Table textStyle={props.textStyle} headers={props.tables[1].headers} rows={props.tables[1].rows}/>
+            </div>
             <Photo className="col-span-2" photo={props.images[6]}/>
-            <Table textStyle={props.textStyle} headers={props.tables[1].headers} rows={props.tables[1].rows}/>
-            <span className='text-justify longBreak' style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text[1]}}></span>
+            <span className='text-justify longBreak col-span-2 columns-2' style={props.textStyle} dangerouslySetInnerHTML={{__html: props.text[1]}}></span>
           </div>
         </div>
 
@@ -65,7 +67,7 @@ const CouncilTemplate: NextPage = () => {
     <Layout title={chess.title}>
       <div className={`page ${chess.colours}`}>
         <LeftPage {...chess}/>
-        <RightPage {...chess}/>
+        <RightPage {...chess} pageNumber={chess.pageNumber + 1}/>
       </div>
     </Layout>
   )

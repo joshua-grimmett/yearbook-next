@@ -100,9 +100,9 @@ const ExcursionTemplate: NextPage = () => {
     {image: '/other/band/4.jpg', height: '40mm'},
     {image: '/other/band/5.jpg', height: '39mm'},
     {image: '/other/band/6.jpg', height: '56mm', top: '-7mm'},
-    {image: '/other/band/7.jpg'},
+    {image: '/other/band/7.jpg', height: '64mm'},
     {image: '/other/band/8.jpg', height: '46mm'},
-    {image: '/other/band/9.jpg'},
+    {image: '/other/band/9.jpg', height: '42mm'},
   ];
 
   let rightImages = [
@@ -116,7 +116,7 @@ const ExcursionTemplate: NextPage = () => {
     {image: '/other/choir/8.jpeg'},
   ];
 
-  let pageNumber = 1;
+  let pageNumber = 42;
   return (
     <Layout title={title}>
       <div className={`page ${colours}`}>
@@ -136,7 +136,7 @@ const ExcursionTemplate: NextPage = () => {
           title={"Performing Arts - Choir"}
           text={rightText}
           images={rightImages}
-          pageNumber={pageNumber++}
+          pageNumber={pageNumber + 1}
           textStyle={{
             fontSize: '10.5pt',
             lineHeight: '13pt',

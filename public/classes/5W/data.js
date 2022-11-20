@@ -3,15 +3,15 @@ module.exports = {
   teachers: [
     {name: 'Charmaine Wynne', image: '/staff/Wynne, Charmaine.jpg'}
   ],
-  poster: '/classes/5LN/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Harcourts Coastal.jpg',
+  pageNumbers: [179,180],
   colours: 'yr5',
   classPhotos: [
     {image: '/classes/5W/images/img1.png', caption: 'Our City of Ember.', left: '0mm'},
     {image: '/classes/5W/images/img2.jpeg', caption: 'Light can go around corners.'},
-    {image: '/classes/5W/images/img3.jpeg', caption: 'Our Australian bushland creation.'},
+    {image: '/classes/5W/images/img5.jpeg', caption: 'Comfy learning techniques.'},
     {image: '/classes/5W/images/img4.jpeg', caption: 'Bushland habitat ready for our creatures.'},
-    {image: '/classes/5W/images/img5.jpeg', caption: 'Comfy learning techniques.', top: '-4mm'},
+    {image: '/classes/5W/images/img17.jpeg', caption: 'School was different in 1854.', top: '-5mm'},
     {image: '/classes/5W/images/img11.jpeg', caption:'We’ll save you.'},
     {image: '/classes/5W/images/img10.jpeg', caption:'Surfing Burleigh.'},
     {image: '/classes/5W/images/img8.jpeg', caption: 'Supporting our teams in science.'},
@@ -46,7 +46,7 @@ module.exports = {
     {name: 'Memphis Stevens',  job: 'Surf Safety'},
     {name: 'Ned Stirling',  job: 'Having my friends in my class'},
     {name: 'Melina Tongalea',  job: 'Winning second place at Sports Fun Day'},
-    {name: 'Cooper Van',  job: 'Klooster Surf Safety'},
+    {name: 'Cooper Van Klooster',  job: 'Surf Safety'},
     {name: 'Paige Vincetic',  job: 'Learning about Space and the Solar System'},
     {name: 'Brianna Whichelo',  job: 'Sports Fun Day'},
     {name: 'Charlie Winton',  job: 'Inter-school Basketball'},

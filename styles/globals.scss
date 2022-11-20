@@ -23,3 +23,5 @@
 body, html {
   margin: 0;
 }
+
+html { -webkit-print-color-adjust: exact; }

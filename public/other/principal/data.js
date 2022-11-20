@@ -15,7 +15,7 @@ module.exports = {
   <li>Wakakirri (and we made the finals)</li>
   <li>The vast range of extra-curricular opportunities in the face of teacher shortages</li>
   <li>Deep learning in our classrooms</li>
-  <li>Receiving Apple Distinguished Schools recognition … again</li>
+  <li>Receiving Apple Distinguished Schools recognition again</li>
   <li>A deeper focus on sustainability across the school.</li> 
   <span class="break"></span>
   There is a distinct difference between offering a service and being willing to serve others.  They both include giving, but only one is generous and selfless.  It is this willingness or goodwill that makes Coomera Rivers that little bit different.  The strength of any school can be measured by its goodwill – that intangible amount that is freely contributed to the students, families, and school reputation by those who are willing to serve.  It is visible each time parents participate with their children at a school event, when teachers organise activities that are outside their classroom duties or P&C executive conduct an activity for our school community.  
@@ -39,7 +39,7 @@ module.exports = {
     {image: "/other/principal/3.png"},
     {image: "/other/principal/2.png"},
   ],
-  pageNumber: 1,
+  pageNumber: 4,
   staff: [
     {name: "Vic Graham", image: "/staff/Graham, Vic.jpg"},
   ]
