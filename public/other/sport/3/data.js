@@ -15,9 +15,7 @@ module.exports = {
   Coomera Rivers entered a Primary Male and Primary Female team into the AFLQ Schools Cup. Both teams did a tremendous job when competing and our girls team went undefeated and progressed to the Regional Finals. The competition started with roughly 200 schools and making the Regional Finals meant that our girls’ team were in the top 15 of the competition.
   </span>
   <span class="brick"><h2>Rugby League</h2>
-  Our Rugby League teams coached by Mr Bradley & Mr Taylor had plenty of playing opportunities, competing in the NRL Gala Day, Broadwater Cup, 
-  <span class="break"></span>
-  Coomera Cup and Interschool Sport. All students exhibited great character, played hard and fair, and were respectful on and off the field. 
+  Our Rugby League teams coached by Mr Bradley & Mr Taylor had plenty of playing opportunities, competing in the NRL Gala Day, Broadwater Cup, Coomera Cup and Interschool Sport. All students exhibited great character, played hard and fair, and were respectful on and off the field. 
   </span>
   <span class="brick"><h2>Basketball</h2>
   Our Year 5/6 basketball team coached by Mr Lewis did a remarkable job competing against Coomera Springs. We managed to get the victory and retain the Coomera Cup. 

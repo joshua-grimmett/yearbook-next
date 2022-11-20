@@ -127,15 +127,15 @@ const ExcursionTemplate: NextPage = () => {
     {image: '/other/sport/1/14.jpeg'},
   ];
 
-  let pageNumber = 1;
+  let pageNumber = 49;
   return (
     <Layout title={title}>
       <div className={`page ${colours}`}>
         <LeftPage 
           title={title} 
           staff={[
+            {name: 'Jack Burrows', image: '/staff/Burrows, Jack.jpg'},
             {name: 'Mitchell Cope', image: '/staff/Cope, Mitchell.jpg'},
-            {name: 'Jack Burrows', image: '/staff/Burrows, Jack.jpg'}
           ]}
           textBlock={textBlock}
           pageNumber={pageNumber}
@@ -153,7 +153,7 @@ const ExcursionTemplate: NextPage = () => {
             {name: 'Jack Burrows', image: '/staff/Burrows, Jack.jpg'}
           ]}
           textBlock={rightTextBlock}
-          pageNumber={pageNumber}
+          pageNumber={pageNumber + 1}
           textStyle={{
             fontSize: '8.5pt',
             lineHeight: '1.2',

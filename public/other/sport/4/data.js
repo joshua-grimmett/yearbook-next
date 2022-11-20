@@ -18,7 +18,7 @@ module.exports = {
 
   <span class="brick">
   <h1>Sports Fun Days</h1>
-  The weather postponed our Sports Fun Days, but we were able to hold our 3-day carnival in Week 1 of Term 4. It was amazing to see all students, teachers and parents supporting their house by wearing their sports house colours and cheering for their mates. Fun, Friendship and Fitness is the focus for our carnivals, and that is evident in all the cheering from our students and smiles on their faces. We began the days with our lap and sprint races, which always draws some huge cheers. We spent the middle section of the day participating in heaps of exciting activities, trying to score points for our houses. Pedley were victorious overall with a 3-peat, winning in 2020, 2021 and 2022!
+  The weather postponed our Sports Fun Days, but we were able to hold our 3-day carnival in Week 1 of Term 4. It was amazing to see all students, teachers and parents supporting their house by wearing their sports house colours and cheering for their mates. Fun, Friendship and Fitness was the focus for our carnivals, and that is evident in all the cheering from our students and smiles on their faces. We began the days with our lap and sprint races, which always draws some huge cheers. We spent the middle section of the day participating in heaps of exciting activities, trying to score points for our houses. Pedley were victorious overall with a 3-peat, winning in 2020, 2021 and 2022!
   </span>
 
   <span class="brick">
