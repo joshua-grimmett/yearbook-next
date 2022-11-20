@@ -11,8 +11,8 @@ const ClassOf2022Card = ({student}: {student: any}) => (
     <div className='classOfCard__questions'>
         { student.questions.map((question: any, qKey: number) => (
           <div key={qKey} className='classOfCard__questions_row'>
-            <span className="font-bold">{question.question}</span>
-            <span>{question.answer}</span>
+            <span className="font-bold" >{question.question}</span>
+            <span style={question.styles ?? {}}>{question.answer}</span>
           </div>
         ))}
       </div>

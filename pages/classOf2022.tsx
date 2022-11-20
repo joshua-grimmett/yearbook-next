@@ -15,7 +15,7 @@ const ClassOf2022Template: NextPage = () => {
   }
 
   let pages = [];
-  let pageNumber = 1;
+  let pageNumber = 199;
   for (let i = 0; i < chunks.length; i++) {
     pages.push(
       <PlainDoublePage key={i}>

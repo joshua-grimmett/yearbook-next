@@ -133,7 +133,11 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "1. An artist 2. An author. 3. Daycare teacher."
+        "answer": "1. An artist 2. An author. 3. Daycare teacher.",
+        "styles": {
+          "fontSize": "5pt",
+          "lineHeight": "5pt"
+        }
       },
       {
         "question": "Favourite Subject?",
@@ -141,11 +145,19 @@
       },
       {
         "question": "Best thing about Primary School?",
-        "answer": "Friends, teachers (principal, deputies, all the AT, the lollipop ladies and men, extra curricular teachers and even the visitors at our school."
+        "answer": "Friends, teachers (principal, deputies, all the AT, the lollipop ladies and men, extra curricular teachers and even the visitors at our school.",
+        "styles": {
+          "fontSize": "5pt",
+          "lineHeight": "5pt"
+        }
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Writing, drawing, colouring, reading, sports, gaming and playing."
+        "answer": "Writing, drawing, colouring, reading, sports, gaming and playing.",
+        "styles": {
+          "fontSize": "5pt",
+          "lineHeight": "5pt"
+        }
       }
     ]
   },
@@ -358,7 +370,11 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "An actor and marine biologist so I can persue my passion for performing and ocean animals."
+        "answer": "An actor and marine biologist so I can persue my passion for performing and ocean animals.",
+        "styles": {
+          "fontSize": "5pt",
+          "lineHeight": "5pt"
+        }
       },
       {
         "question": "Favourite Subject?",
@@ -366,11 +382,11 @@
       },
       {
         "question": "Best thing about Primary School?",
-        "answer": "The best thing has been the experiences like excursion, camps and especially the graduation activities!"
+        "answer": "Excursions, camps and graduation activities!"
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Drawing, writing, cooking, playing netball, dancing and acting."
+        "answer": "Drawing, writing, cooking, netball, dancing and acting."
       }
     ]
   },
@@ -404,7 +420,7 @@
     "first": "Josh",
     "last": "Naylor",
     "class": "6E",
-    "image": "/classOf2022/images/Naylor, Josh.jpg",
+    "image": "/classOf2022/images/Naylor, Joshua.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -545,7 +561,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": ""
+        "answer": "Minecraft and guitar"
       }
     ]
   },
@@ -570,7 +586,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Cheerleading, babies running."
+        "answer": "Cheerleading"
       }
     ]
   },
@@ -808,7 +824,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Childcare Worker"
+        "answer": "Childcare worker"
       },
       {
         "question": "Favourite Subject?",
@@ -870,7 +886,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Playing Fallguys"
+        "answer": "Basketball"
       }
     ]
   },
@@ -1158,7 +1174,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Tech engineer/Soccer player"
+        "answer": "Tech engineer/soccer player or architect"
       },
       {
         "question": "Favourite Subject?",
@@ -1170,7 +1186,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Saxaphone, soccer and go karting"
+        "answer": "Soccer, go karting, lego and drawing"
       }
     ]
   },
@@ -1220,7 +1236,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Motorsport"
+        "answer": "Gaming"
       }
     ]
   },
@@ -1395,7 +1411,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Play sport with my family"
+        "answer": "Playing sport with my family"
       }
     ]
   },
@@ -1479,7 +1495,7 @@
     "first": "Mya",
     "last": "Yarker",
     "class": "56L",
-    "image": "/classOf2022/images/Yarker, Mya .jpg",
+    "image": "/classOf2022/images/Yarker, Mya.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -1500,11 +1516,11 @@
     ]
   },
   {
-    "name": "Maryiae Alwan",
-    "first": "Maryiae",
+    "name": "Mariyae Alwan",
+    "first": "Mariyae",
     "last": "Alwan",
     "class": "6WC",
-    "image": "/classOf2022/images/Alwan, Maryiae.jpg",
+    "image": "/classOf2022/images/Alwan, Mariyae.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -1783,7 +1799,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "UFC fighter"
+        "answer": "Architect"
       },
       {
         "question": "Favourite Subject?",
@@ -2008,7 +2024,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Parent"
+        "answer": "Parent or actor"
       },
       {
         "question": "Favourite Subject?",
@@ -2020,7 +2036,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Dancing"
+        "answer": "Sport"
       }
     ]
   },
@@ -2087,7 +2103,7 @@
       },
       {
         "question": "Favourite Subject?",
-        "answer": "Science"
+        "answer": "Maths"
       },
       {
         "question": "Best thing about Primary School?",
@@ -2345,7 +2361,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Acrobatics"
+        "answer": "Listening to music "
       }
     ]
   },
@@ -2404,7 +2420,7 @@
     "first": "Mylie",
     "last": "Palla",
     "class": "6WC",
-    "image": "/classOf2022/images/Palla, Mylie.jpg",
+    "image": "/classOf2022/images/Palla, Mylie-Jo.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -2416,7 +2432,7 @@
       },
       {
         "question": "Best thing about Primary School?",
-        "answer": "Writing tasks"
+        "answer": "Friends"
       },
       {
         "question": "Current Leisure or Hobby?",
@@ -2470,7 +2486,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Netball"
+        "answer": "Volleyball "
       }
     ]
   },
@@ -2508,7 +2524,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Police officer"
+        "answer": "News reporter or lawyer"
       },
       {
         "question": "Favourite Subject?",
@@ -2558,7 +2574,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Professional soccer Player"
+        "answer": "Professional soccer player"
       },
       {
         "question": "Favourite Subject?",
@@ -2595,7 +2611,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Play VR"
+        "answer": "Playing VR"
       }
     ]
   },
@@ -2608,7 +2624,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Architect"
+        "answer": "Athlete"
       },
       {
         "question": "Favourite Subject?",
@@ -2708,7 +2724,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "Netball player or model"
+        "answer": "Pediatric nurse"
       },
       {
         "question": "Favourite Subject?",
@@ -2745,7 +2761,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Candle making"
+        "answer": "Candle making and art"
       }
     ]
   },
@@ -2770,7 +2786,7 @@
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Practicing aerial on her Lyra"
+        "answer": "Practicing aerial on her lyra"
       }
     ]
   },
@@ -2950,11 +2966,11 @@
     ]
   },
   {
-    "name": "Lily Hendrickson",
+    "name": "Lily Henricksen",
     "first": "Lily",
-    "last": "Hendrickson",
+    "last": "Henricksen",
     "class": "6WL",
-    "image": "/classOf2022/images/Hendrickson,  Lily .jpg",
+    "image": "/classOf2022/images/Henricksen, Lily.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -3075,11 +3091,11 @@
     ]
   },
   {
-    "name": "Alisha Kruase",
+    "name": "Alisha Krause",
     "first": "Alisha",
-    "last": "Kruase",
+    "last": "Krause",
     "class": "6WL",
-    "image": "/classOf2022/images/Kruase, Alisha.jpg",
+    "image": "/classOf2022/images/Krause, Alisha.jpg",
     "questions": [
       {
         "question": "Career Aspiration?",
@@ -3133,7 +3149,7 @@
     "questions": [
       {
         "question": "Career Aspiration?",
-        "answer": "YouTuber."
+        "answer": "YouTuber "
       },
       {
         "question": "Favourite Subject?",
@@ -3341,11 +3357,11 @@
       },
       {
         "question": "Best thing about Primary School?",
-        "answer": "Year 6 Camp."
+        "answer": "Year 6 Camp"
       },
       {
         "question": "Current Leisure or Hobby?",
-        "answer": "Swimming."
+        "answer": "Swimming"
       }
     ]
   },
