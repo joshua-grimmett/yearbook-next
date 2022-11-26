@@ -1,12 +1,10 @@
 
-const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: ClassPhoto, height?: string, width?: string, props: any }) => {
+const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: ClassPhoto, height?: string, width?: string, props?: any }) => {
   const style: any = {
     objectPosition: `${classPhoto.left ? classPhoto.left : 'center'} ${classPhoto.top ? classPhoto.top : '0mm'} !important`
   }
   if (width) style['width'] = width;
   if (height) style['height'] = height;
-
-  console.log(style);
 
   return (
     <div className={`card card__class-photo ${props.className}`}>

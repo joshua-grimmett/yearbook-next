@@ -33,8 +33,16 @@ export { LargeDoublePage }
 const LongDoublePage = (props: any) => {
   return (
     <div className={`page ${props.className}`}>
-      <LongLeftPage pageNumber={props.pageNumbers[0]} {...props}/>
-      <LongRightPage pageNumber={props.pageNumbers[1]} {...props}/>
+      <LongLeftPage
+        pageNumber={props.pageNumbers[0]} 
+        pagePhotoAllocations={props.pagePhotoAllocations[0]}
+        {...props}/>
+      <LongRightPage
+        pageNumber={props.pageNumbers[1]}
+        previousPagePhotoAllocations={props.pagePhotoAllocations[0]}
+        classPhotos={props.classPhotos.slice(props.pagePhotoAllocations[0])}
+        pagePhotoAllocations={props.pagePhotoAllocations[1]}
+        {...props}/>
     </div>
   )
 }
@@ -42,10 +50,18 @@ const LongDoublePage = (props: any) => {
 export { LongDoublePage }
 
 const PhotoDoublePage = (props: any) => {
+  const previousPhotos = props.previousPagePhotoAllocations.reduce((a: number, b: number) => a + b)
+  const classPhotos = props.classPhotos.slice(previousPhotos);
   return (
     <div className={`page ${props.className}`}>
-      <PhotoLeftPage pageNumber={props.pageNumbers[2]} {...props}/>
-      <PhotoRightPage pageNumber={props.pageNumbers[3]} classPhotos={props.classPhotos.slice(12)} poster={props.poster}/>
+      <PhotoLeftPage 
+        pageNumber={props.pageNumbers[0]}
+        {...props}
+        classPhotos={classPhotos}/>
+      <PhotoRightPage
+        pageNumber={props.pageNumbers[1]}
+        classPhotos={classPhotos.slice(props.pagePhotoAllocations[0])}
+        poster={props.poster}/>
     </div>
   )
 }
@@ -204,7 +220,8 @@ const PhotoRightPage = ({
   return (
     <div className="right">
       <div className="page__content">
-        <PhotoClassRightGrid classPhotos={classPhotos} poster={poster}/>
+        { !poster && <PhotoClassRightGrid classPhotos={classPhotos} poster={poster}/> }
+        { poster && <PhotoClassPosterRightGrid classPhotos={classPhotos} poster={poster}/> }
       </div>
       <Footer direction="right" pageNumber={pageNumber}/>
     </div>
@@ -241,7 +258,9 @@ const LongRightPage = ({
   question,
   poster,
   teachers,
-  tableTextStyle
+  tableTextStyle,
+  pagePhotoAllocations,
+  previousPagePhotoAllocations
 }: { 
   title: string,
   pageNumber: number,
@@ -250,8 +269,11 @@ const LongRightPage = ({
   question: string,
   poster: string,
   teachers: Teacher[],
-  tableTextStyle: object
+  tableTextStyle: object,
+  pagePhotoAllocations: number[],
+  previousPagePhotoAllocations: number[]
 }) => {
+  classPhotos = classPhotos.slice(pagePhotoAllocations[0]-teachers.length-1);
   return (
     <div className="right">
       <div className="page__content">

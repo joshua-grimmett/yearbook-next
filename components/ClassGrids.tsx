@@ -158,7 +158,7 @@ const ClassRightGrid = ({
 }: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
   if (!text) {
     return (
-      <PhotoClassRightGrid classPhotos={classPhotos} poster={poster}/>
+      <PhotoClassPosterRightGrid classPhotos={classPhotos} poster={poster}/>
     )
   }
   return (
@@ -224,16 +224,19 @@ const LongClassRightGrid = ({
   poster,
   tableTextStyle
 }: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
+  const height = poster ? '22.5mm' : '50mm';
+  const width = poster ? '82mm' : '82mm';
+
   return (
     <>
       <div className="posterGrid">
         <LongTableTextCard question={question} text={text} style={tableTextStyle}/>
         <div className="column">
-          <PosterCard image={poster}/>
-          <ClassPhotoCard height='22.5mm' width='82mm' classPhoto={classPhotos[0]} />
-          <ClassPhotoCard height='22.5mm' width='82mm' classPhoto={classPhotos[1]} />
-          <ClassPhotoCard height='22.5mm' width='82mm' classPhoto={classPhotos[2]} />
-          <ClassPhotoCard height='22.5mm' width='82mm' classPhoto={classPhotos[3]} />
+          { poster && <PosterCard image={poster}/> }
+          <ClassPhotoCard height={height} width={width} classPhoto={classPhotos[0]} />
+          <ClassPhotoCard height={height} width={width} classPhoto={classPhotos[1]} />
+          <ClassPhotoCard height={height} width={width} classPhoto={classPhotos[2]} />
+          <ClassPhotoCard height={height} width={width} classPhoto={classPhotos[3]} />
         </div>
       </div>
     </>
@@ -242,7 +245,23 @@ const LongClassRightGrid = ({
 
 export { LongClassRightGrid }
 
-const PhotoClassRightGrid = ({ 
+const PhotoClassRightGrid = (props: any) => {
+  const width = '100%';
+  const height = '41.65mm';
+  
+  return (
+    <div className="grid grid-cols-3 gap-x-[5mm] w-full relative top-[55mm]">
+      { props.classPhotos.map((photo: any, i: number) => {
+        if (i < props.classPhotos.length - 1) return <ClassPhotoCard height={height} width={width} key={i} classPhoto={photo}/>
+        else return <ClassPhotoCard className='col-span-2' height={height} width={width} key={i} classPhoto={photo}/>
+      })}
+    </div>
+  );
+};
+
+export { PhotoClassRightGrid }
+
+const PhotoClassPosterRightGrid = ({ 
   classPhotos,
   poster,
 }: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
@@ -331,7 +350,7 @@ const PhotoClassRightGrid = ({
   )
 }
 
-export { PhotoClassRightGrid }
+export { PhotoClassPosterRightGrid }
 
 const PhotoClassLeftGrid = ({ classPhotos }: {classPhotos: ClassPhoto[]}) => {
   return (

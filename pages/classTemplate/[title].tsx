@@ -10,6 +10,7 @@ const ClassTemplate: NextPage = () => {
   const ids: string[] = Object.keys(classes).filter(c => c === router.query.title);
   const list: any[] = ids.map((c: string) => classes[c]);
 
+  const defaultQuestion = 'When I grow up I want to be...';
   return (
     <Layout title={list[0]?.title ?? ''}>
       {
@@ -18,13 +19,13 @@ const ClassTemplate: NextPage = () => {
            * Double Pages (4x2)
            */
           if (c.type === 'xlp') {
-            return <>
+            return <div key={i}>
               <LargeDoublePage
                 className={c.colours}
                 key={i}
                 title={c.title}
                 teachers={c.teachers}
-                question={c.question || 'When I grow up I want to be...'}
+                question={c.question || defaultQuestion}
                 tableText={c.tableText}
                 tableTextStyle={c.tableTextStyle}
                 classPhotos={c.classPhotos}
@@ -38,22 +39,24 @@ const ClassTemplate: NextPage = () => {
                 teachers={c.teachers}
                 poster={c.posters[1]}
                 classPhotos={c.classPhotos.slice(16)}
-                pageNumbers={c.pageNumbers}
+                pageNumbers={c.pageNumbers.slice(2, 4)}
                 />
-            </>
+            </div>
           } else if (c.type === 'xl') {
-            return <>
+            return <div key={i}>
               <LongDoublePage
                 className={c.colours}
                 key={i}
                 title={c.title}
                 teachers={c.teachers}
-                question={c.question || 'When I grow up I want to be...'}
+                question={c.question || defaultQuestion}
                 tableText={c.tableText}
                 tableTextStyle={c.tableTextStyle}
                 classPhotos={c.classPhotos}
                 poster={c.posters[0]}
                 pageNumbers={c.pageNumbers}
+                previousPagePhotoAllocations={[]}
+                pagePhotoAllocations={c.pagePhotoAllocations?.slice(0, 2) || [5, 4]}
                 text={c.text}
                 textStyle={c.textStyle}/>
               <PhotoDoublePage
@@ -61,9 +64,11 @@ const ClassTemplate: NextPage = () => {
                 title={c.title}
                 teachers={c.teachers}
                 poster={c.posters[1]}
-                classPhotos={c.classPhotos.slice(11-c.teachers.length)}
-                pageNumbers={c.pageNumbers}/>
-            </>
+                previousPagePhotoAllocations={c.pagePhotoAllocations?.slice(0, 2) || [5, 4]}
+                pagePhotoAllocations={c.pagePhotoAllocations?.slice(2, 4) || [12, 12]}
+                classPhotos={c.classPhotos}
+                pageNumbers={c.pageNumbers.slice(2, 4)}/>
+            </div>
           }
           /**
            * Normal Pages (1x2)
@@ -73,7 +78,7 @@ const ClassTemplate: NextPage = () => {
             key={i}
             title={c.title}
             teachers={c.teachers}
-            question={c.question || 'When I grow up I want to be...'}
+            question={c.question || defaultQuestion}
             tableText={c.tableText}
             tableTextStyle={c.tableTextStyle}
             classPhotos={c.classPhotos}
