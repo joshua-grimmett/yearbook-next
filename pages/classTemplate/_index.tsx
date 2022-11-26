@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
-import { classes } from '../metadata';
+import { classes } from '../../metadata';
 
-import Layout from '../components/Layout'
-import DoublePage, { LargeDoublePage, PhotoDoublePage, LongDoublePage, PlainPage } from '../components/Page'
+import Layout from '../../components/Layout'
+import DoublePage, { LargeDoublePage, PhotoDoublePage, LongDoublePage, PlainPage } from '../../components/Page'
 
 const ClassTemplate: NextPage = () => {
+  const defaultQuestion = 'When I grow up I want to be...';
+
   return (
     <Layout title={classes[0].title}>
       {
@@ -19,7 +21,7 @@ const ClassTemplate: NextPage = () => {
                 key={i}
                 title={c.title}
                 teachers={c.teachers}
-                question={c.question || 'When I grow up I want to be...'}
+                question={c.question || defaultQuestion}
                 tableText={c.tableText}
                 tableTextStyle={c.tableTextStyle}
                 classPhotos={c.classPhotos}
@@ -43,7 +45,7 @@ const ClassTemplate: NextPage = () => {
                 key={i}
                 title={c.title}
                 teachers={c.teachers}
-                question={c.question || 'When I grow up I want to be...'}
+                question={c.question || defaultQuestion}
                 tableText={c.tableText}
                 tableTextStyle={c.tableTextStyle}
                 classPhotos={c.classPhotos}
@@ -68,7 +70,7 @@ const ClassTemplate: NextPage = () => {
             key={i}
             title={c.title}
             teachers={c.teachers}
-            question={c.question || 'When I grow up I want to be...'}
+            question={c.question || defaultQuestion}
             tableText={c.tableText}
             tableTextStyle={c.tableTextStyle}
             classPhotos={c.classPhotos}
