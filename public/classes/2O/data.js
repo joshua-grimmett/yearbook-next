@@ -2,10 +2,10 @@ module.exports = {
   title: '2O',
   teachers: [
     {name: 'Trish O’Sullivan', image: '/staff/O\'Sullivan, Trish.jpg'},
-      {name: 'Therese Kane', image: '/staff/Kane, Therese.jpg'},
+      {name: 'Therese Kane', image: '/staff/Kane, Therese.jpg', top: '-11mm'},
   ],
   poster: '/classes/2O/poster.png',
-  pageNumbers: [40, 41],
+  pageNumbers: [125, 126],
   colours: 'yr2',
   classPhotos: [
     { image: '/classes/2O/images/1.jpeg', caption:  'At Currumbin for the day'},
