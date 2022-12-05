@@ -264,18 +264,26 @@ export { PhotoClassRightGrid }
 const PhotoClassPosterRightGrid = ({ 
   classPhotos,
   poster,
-}: {question: string, text: any, classPhotos: ClassPhoto[], poster: string, tableTextStyle: object}) => {
+  pagePhotoAllocations
+}: {
+  question: string,
+  text: any,
+  classPhotos: ClassPhoto[],
+  poster: string,
+  tableTextStyle: object,
+  pagePhotoAllocations: number
+}) => {
   return (
     <div className="relative top-[12mm]">
       <div className="grid grid-cols-2">
         <div className="left">
-          { classPhotos.length !== 12 && classPhotos.length !== 14 && <>
+          { pagePhotoAllocations === 11 && <>
             <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[0]}/>
             <ClassPhotoCard height='43.95mm' width='82mm' classPhoto={classPhotos[1]}/>
             </>
           }
           {
-            classPhotos.length === 12 && <>
+            pagePhotoAllocations === 12 && <>
               <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[0]}/>
               <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[1]}/>
               <ClassPhotoCard height='24.7mm' width='82mm' classPhoto={classPhotos[2]}/>
@@ -307,7 +315,7 @@ const PhotoClassPosterRightGrid = ({
           </div>
         </>
       }
-      { classPhotos.length === 12 && <>
+      { pagePhotoAllocations <= 14 && <>
           <div className="grid grid-cols-3 gap-x-[5mm] w-full">
             <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[3]}/>
             <ClassPhotoCard height='43.95mm' width='100%' classPhoto={classPhotos[4]}/>
@@ -317,8 +325,8 @@ const PhotoClassPosterRightGrid = ({
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[7]}/>
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[8]}/>
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[9]}/>
-            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[10]}/>
-            <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[11]}/>
+            <ClassPhotoCard className={pagePhotoAllocations >= 12 ? '' : 'col-span-2'} height='31.8mm' width='100%' classPhoto={classPhotos[10]}/>
+            { pagePhotoAllocations >= 12 &&  <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[11]}/> }
           </div>
         </>
       }

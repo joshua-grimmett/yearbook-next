@@ -17,12 +17,12 @@ module.exports = {
   Chess Clubbers v Staff: One of our favourite each year is the clubbers v staff challenge. This year was a very close competition with the staff winning 16 games to 14.`
   ],
   images: [
-    {image: "/other/chess/1.jpeg"},
-    {image: "/other/chess/2.jpeg"},
     {image: "/other/chess/3.jpeg"},
-    {image: "/other/chess/4.jpeg"},
-    {image: "/other/chess/5.jpeg"},
-    {image: "/other/chess/6.jpeg"},
+    {image: "/other/chess/8.png"},
+    {image: "/other/chess/9.png"},
+    {image: "/other/chess/10.png"},
+    {image: "/other/chess/11.png"},
+    {image: "/other/chess/12.png"},
     {image: "/other/chess/7.jpeg", top: '-23mm', height: '84mm', width: '182mm'},
   ],
   tables: [

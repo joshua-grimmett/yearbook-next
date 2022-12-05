@@ -3,8 +3,9 @@ import Footer, { FixedFooter } from './Footer';
 
 import type { ClassPhoto } from './ClassPhotoCards';
 import type { Teacher } from './TeacherCard';
-import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid, DeputyGrid } from './ClassGrids';
+import { ClassLeftGrid, ClassRightGrid, LargeClassLeftGrid, PhotoClassRightGrid, PhotoClassLeftGrid, LongClassLeftGrid, LongClassRightGrid, DeputyGrid, PhotoClassPosterRightGrid } from './ClassGrids';
 import Tab from './Tab';
+import { SERVER_PROPS_ID } from 'next/dist/shared/lib/constants';
 
 const DoublePage = (props: any) => {
   return (
@@ -21,8 +22,16 @@ export default DoublePage
 const LargeDoublePage = (props: any) => {
   return (
     <div className={`page ${props.className}`}>
-      <LargeLeftPage pageNumber={props.pageNumbers[0]} {...props}/>
-      <LargeRightPage pageNumber={props.pageNumbers[1]} {...props}/>
+       <LargeLeftPage
+        pageNumber={props.pageNumbers[0]} 
+        pagePhotoAllocations={props.pagePhotoAllocations[0]}
+        {...props}/>
+      <LargeRightPage
+        pageNumber={props.pageNumbers[1]}
+        previousPagePhotoAllocations={props.pagePhotoAllocations[0]}
+        classPhotos={props.classPhotos.slice(props.pagePhotoAllocations[0])}
+        pagePhotoAllocations={props.pagePhotoAllocations[1]}
+        {...props}/>
     </div>
   )
 }
@@ -61,7 +70,8 @@ const PhotoDoublePage = (props: any) => {
       <PhotoRightPage
         pageNumber={props.pageNumbers[1]}
         classPhotos={classPhotos.slice(props.pagePhotoAllocations[0])}
-        poster={props.poster}/>
+        poster={props.poster}
+        pagePhotoAllocations={props.pagePhotoAllocations[1]}/>
     </div>
   )
 }
@@ -176,7 +186,7 @@ const LargeRightPage = ({
           classPhotos={classPhotos.slice(teachers.length > 1 ? 5 : 6)}
           poster={poster}/>
         }
-        { !tableText && <PhotoClassRightGrid
+        { !tableText && <PhotoClassPosterRightGrid
           classPhotos={classPhotos.slice(teachers.length > 1 ? 5 : 6)}
           poster={poster}/>
         }
@@ -211,17 +221,24 @@ export { PhotoLeftPage }
 const PhotoRightPage = ({
   pageNumber,
   classPhotos,
-  poster
+  poster,
+  pagePhotoAllocations
 }: {
   pageNumber: number,
   classPhotos: ClassPhoto[],
-  poster: string
+  poster: string,
+  pagePhotoAllocations: number
 }) => {
   return (
     <div className="right">
       <div className="page__content">
         { !poster && <PhotoClassRightGrid classPhotos={classPhotos} poster={poster}/> }
-        { poster && <PhotoClassPosterRightGrid classPhotos={classPhotos} poster={poster}/> }
+        { poster && 
+          <PhotoClassPosterRightGrid
+            classPhotos={classPhotos}
+            poster={poster}
+            pagePhotoAllocations={pagePhotoAllocations}/>
+        }
       </div>
       <Footer direction="right" pageNumber={pageNumber}/>
     </div>

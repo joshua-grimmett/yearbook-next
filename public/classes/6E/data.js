@@ -3,12 +3,12 @@ module.exports = {
   teachers: [
     {name: 'Alana Ellison', image: '/staff/Ellison, Alana.jpg'},
   ],
-  poster: '/classes/6E/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Michael Crandon.jpg',
+  pageNumbers: [187, 188],
   colours: 'yr6',
   classPhotos: [
     {image: '/classes/6E/images/1.jpeg', caption: 'Masking it up on the first day of school. '},
-    {image: '/classes/6E/images/2.jpeg', caption: 'Reading on our Valentines Day blind day with a book. ', top: '-12mm'},
+    {image: '/classes/6E/images/2.jpeg', caption: 'Reading on our Valentines Day blind date with a book. ', top: '-12mm'},
     {image: '/classes/6E/images/3.jpeg', caption: '2/2/22 Tutus on Tuesday.', top: '-13mm'},
     {image: '/classes/6E/images/4.jpeg', caption: 'The 6E room.'},
     {image: '/classes/6E/images/5.jpeg', caption: 'Go Pedley!'},

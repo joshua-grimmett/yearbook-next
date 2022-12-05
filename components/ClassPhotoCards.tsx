@@ -1,5 +1,11 @@
 
-const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: ClassPhoto, height?: string, width?: string, props?: any }) => {
+const ClassPhotoCard = ({ classPhoto, height, width, className, ...props }: { 
+  classPhoto: ClassPhoto,
+  height?: string,
+  width?: string,
+  className?: string,
+  props?: any 
+}) => {
   const style: any = {
     objectPosition: `${classPhoto.left ? classPhoto.left : 'center'} ${classPhoto.top ? classPhoto.top : '0mm'} !important`
   }
@@ -7,7 +13,7 @@ const ClassPhotoCard = ({ classPhoto, height, width, ...props }: { classPhoto: C
   if (height) style['height'] = height;
 
   return (
-    <div className={`card card__class-photo ${props.className}`}>
+    <div className={`card card__class-photo ${className}`}>
       <span className="tag"></span>
       <div className="card__inner">
         {/* eslint-disable-next-line @next/next/no-img-element */}

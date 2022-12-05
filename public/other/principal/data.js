@@ -30,7 +30,7 @@ module.exports = {
   <span class="break"></span>
   `,`I would like to wish the graduating students of 2022 well as they transition to their various secondary schools.  I am grateful to them for their character and leadership, and, along with those families who are leaving Coomera Rivers at the end of this year, I hope they can look back on their primary school with fondness and pride.
   <span class="break"></span>
-  With the opening of three primary schools in our suburb across the past five years or so, our school enrolments will continue to slowly decline.  This will soon become visible with changes in our staff.  I anticipate that both Mrs Artz and I will be transferred to other Gold Coast schools by the time that this year book is published.  I am sure that I speak for both of us when I say that our time at Coomera Rivers will always be a special part of our careers.  
+  Thank you to those members of our staff who are moving on to different challenges in 2023. I hope that you will look back on Coomera Rivers with fond memories of your time at the school. I wish you well.
   <span class="break"></span>
   Kind regards
   <br>Vic`],

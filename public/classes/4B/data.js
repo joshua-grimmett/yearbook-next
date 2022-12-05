@@ -3,8 +3,8 @@ module.exports = {
   teachers: [
     {name: 'Emily Bray', image: '/staff/Bray, Emily.jpg'},
   ],
-  poster: '/classes/4B/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Subway.jpg',
+  pageNumbers: [153,154],
   colours: 'yr4',
   classPhotos: [
     {image: '/classes/4B/images/1.jpg', caption:  'Collaboration in Maths.', top: '-12mm'},
@@ -54,8 +54,8 @@ module.exports = {
   ],
   question: 'When I grow up I want to be…',
   tableTextStyle: {
-    lineHeight: '7.5pt',
-    fontSize: '10pt',
+    lineHeight: '8.5pt',
+    fontSize: '7.5pt',
   },
   text: `There were so many highlights this year that it is impossible to list them all, but here is a small snapshot! In our weekly Class Meetings, we had the opportunity to discuss important topics and strengthen our class community. We achieved our goal to read the equivalent of 130 chapter books in just one term. Every time a student finished a book, they rung a doorbell so we could all dance and celebrate. Students showed their creativity and problem solving to construct their cardboard arcade in Science. We wrote information reports about people of great character, persuasive texts convincing the public to adopt animals from the AWLQ, and narratives showing students’ incredible imaginations. Students demonstrated values of citizenship and collaboration while developing solutions to sustainable issues. Last but not least, students begged to play ‘The World’s Slowest Game of Tag’ every single day! 
   <span class="break"></span>

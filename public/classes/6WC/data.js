@@ -5,8 +5,9 @@ module.exports = {
     {name: 'Rikke Comley', image: '/staff/Comley, Rikke.jpg'}
   ],
   type: 'xlp',
-  posters: ['/classes/6WC/poster.png', '/classes/6WC/poster.png'],
-  pageNumbers: [1,2,3,4],
+  posters: ['/posters/Michael Crandon.jpg', '/posters/Michael Crandon.jpg'],
+  pageNumbers: [191, 192, 193, 194],
+  pagePhotoAllocations: [5, 11, 12, 12],
   colours: 'yr6',
   classPhotos: [
     {image: '/classes/6WC/images/img5.jpg', caption: 'Mickey and Mariyae', top: '-8mm'},

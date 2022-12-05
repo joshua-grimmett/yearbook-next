@@ -113,7 +113,8 @@
     aspect-ratio: 2/1;
     object-fit: cover;
     object-position: center 0mm;
-  }''
+  }
+  width: fit-content;
   margin-bottom: 5mm;
   
   .tag {

@@ -31,6 +31,8 @@ const ClassTemplate: NextPage = () => {
                 classPhotos={c.classPhotos}
                 poster={c.posters[0]}
                 pageNumbers={c.pageNumbers}
+                previousPagePhotoAllocations={[]}
+                pagePhotoAllocations={c.pagePhotoAllocations?.slice(0, 2) || [5, 4]}
                 text={c.text}
                 textStyle={c.textStyle}/>
               <PhotoDoublePage
@@ -38,9 +40,10 @@ const ClassTemplate: NextPage = () => {
                 title={c.title}
                 teachers={c.teachers}
                 poster={c.posters[1]}
-                classPhotos={c.classPhotos.slice(16)}
-                pageNumbers={c.pageNumbers.slice(2, 4)}
-                />
+                previousPagePhotoAllocations={c.pagePhotoAllocations?.slice(0, 2) || [5, 4]}
+                pagePhotoAllocations={c.pagePhotoAllocations?.slice(2, 4) || [12, 12]}
+                classPhotos={c.classPhotos}
+                pageNumbers={c.pageNumbers.slice(2, 4)}/>
             </div>
           } else if (c.type === 'xl') {
             return <div key={i}>
