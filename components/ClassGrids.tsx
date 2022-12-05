@@ -164,7 +164,7 @@ const ClassRightGrid = ({
   return (
     <>
       <ClassTopRightGrid question={question} text={text} classPhotos={classPhotos} poster={poster} tableTextStyle={tableTextStyle}/>
-      <ClassBottomRightGrid classPhotos={classPhotos.slice(1)}/>
+      <ClassBottomRightGrid poster={poster} classPhotos={classPhotos.slice(1)}/>
     </>
   )
 }
@@ -182,22 +182,33 @@ const ClassTopRightGrid = ({ text, classPhotos, question, poster, tableTextStyle
     <div className="posterGrid">
       <TableTextCard question={question} text={text} style={tableTextStyle}/>
       <div className="column">
-        <PosterCard image={poster}/>
-        <ClassPhotoCard height='24mm' width='82mm' classPhoto={classPhotos[0]} />
+        { poster && <PosterCard image={poster}/> }
+        { !poster && <>
+          <ClassPhotoCard height='60.1mm' width="79.5mm" classPhoto={classPhotos[1]}/>
+        </> }
+        <ClassPhotoCard height={poster ? '24mm' : '60.1mm'} width='79.5mm' classPhoto={classPhotos[0]} />
       </div>
     </div>
   )
 }
 
-const ClassBottomRightGrid = ({ classPhotos }: {
-  classPhotos: ClassPhoto[]
+const ClassBottomRightGrid = ({ classPhotos, poster }: {
+  classPhotos: ClassPhoto[],
+  poster?: string
 }) => {
   return (
     <div className="grid grid-cols-3 relative mt-[18mm]">
       <div className="flex flex-col">
+        { poster && <>
         <ClassPhotoCard height='23.12mm' width='53.5mm' classPhoto={classPhotos[0]} />
         <ClassPhotoCard height='23.12mm' width='53.5mm' classPhoto={classPhotos[1]} />
         <ClassPhotoCard height='23.12mm' width='53.5mm' classPhoto={classPhotos[2]} />
+        </> }
+        { !poster && <>
+          <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[1]} />
+          <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[2]} />
+        
+        </>}
       </div>
       <div className="flex flex-col">
         <ClassPhotoCard height='41.6mm' width='53.5mm' classPhoto={classPhotos[3]} />
