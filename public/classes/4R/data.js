@@ -4,8 +4,8 @@ module.exports = {
     {name: 'Roxanne Crook', image: '/staff/Crook, Roxanne.jpg'},
     {name: 'Laura Duffy', image: '/staff/Duffy, Laura.jpg'},
   ],
-  poster: '/classes/4R/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/BTZD.jpg',
+  pageNumbers: [161, 162],
   colours: 'yr4',
   classPhotos: [
     {image: '/classes/4R/images/2.jpeg', caption:  'Science experiment investigating erosion'},

@@ -3,8 +3,8 @@ module.exports = {
   teachers: [
       {name: 'Clare Marlow', image: '/staff/Marlow, Clare.jpg'},
   ],
-  poster: '/classes/PM/poster.png',
-  pageNumbers: [40, 41],
+  poster: '/posters/Konnect Property-SALES (1).jpg',
+  pageNumbers: [89, 90],
   colours: 'prep',
   classPhotos: [
     { image: '/classes/PM/images/Image 1.jpg', caption:  'Painting our Seahorses'},

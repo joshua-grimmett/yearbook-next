@@ -4,7 +4,7 @@ module.exports = {
     {name: 'Trish O’Sullivan', image: '/staff/O\'Sullivan, Trish.jpg'},
       {name: 'Therese Kane', image: '/staff/Kane, Therese.jpg', top: '-11mm'},
   ],
-  poster: '/classes/2O/poster.png',
+  poster: '/posters/BTZD.jpg',
   pageNumbers: [125, 126],
   colours: 'yr2',
   classPhotos: [

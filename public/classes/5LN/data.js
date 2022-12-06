@@ -4,8 +4,8 @@ module.exports = {
     {name: 'Susan Leick', image: '/staff/Leick, Susan(2).jpg'},
     {name: 'James Nelson', image: '/staff/Nelson, James.jpg'},
   ],
-  poster: '/classes/5LN/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Ventia.jpg',
+  pageNumbers: [175, 176],
   colours: 'yr5',
   classPhotos: [
     {image: '/classes/5LN/images/1.jpg', caption: 'Colter, Nash & Jacob'},

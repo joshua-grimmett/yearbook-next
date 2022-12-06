@@ -4,8 +4,8 @@ module.exports = {
     {name: 'Shauna Evans', image: '/staff/Evans, Shauna.jpg'},
     {name: 'James Nelson', image: '/staff/Nelson, James.jpg'},
   ],
-  poster: '/classes/5EN/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Coolphase.jpg',
+  pageNumbers: [173, 174],
   colours: 'yr5',
   classPhotos: [
     {image: '/classes/5EN/images/IMG_1.png', caption: 'Friends forever'},
@@ -23,7 +23,7 @@ module.exports = {
     {image: '/classes/5EN/images/IMG_5.jpeg', caption: 'On the ball'},
     {image: '/classes/5EN/images/IMG_13.jpeg', caption: 'Climbing high'},
     {image: '/classes/5EN/images/IMG_15.jpeg', caption: 'Friends, no matter the weather'},
-    {image: '/classes/5EN/images/IMG_16.jpeg', caption: 'Thumbs up'},
+    {image: '/classes/5EN/images/IMG_16.png', caption: 'Thumbs up', top: '-22mm'},
   ],
   question: 'The best part of Year 5 was…',
   tableText: [

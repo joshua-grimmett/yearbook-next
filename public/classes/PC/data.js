@@ -3,8 +3,8 @@ module.exports = {
   teachers: [
       {name: 'Chloe Sullivan', image: '/staff/Sullivan, Chloe.jpg'},
   ],
-  poster: '/classes/PC/poster.png',
-  pageNumbers: [40, 41],
+  poster: '/posters/South Stradbroke Housekeeping.png',
+  pageNumbers: [85, 86],
   colours: 'prep',
   tableTextStyle: {
     fontSize: '8.5pt',

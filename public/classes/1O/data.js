@@ -4,8 +4,8 @@ module.exports = {
       {name: 'Nathalie Oxley', image: '/staff/Oxley, Nathalie.jpg'},
       {name: 'Amanda Frey', image: '/staff/Frey, Amanda.jpg'},
   ],
-  poster: '/classes/1O/poster.png',
-  pageNumbers: [40, 41],
+  poster: '/posters/NDH Joinery.png',
+  pageNumbers: [107, 108],
   colours: 'yr1',
   classPhotos: [
     {image: '/classes/1O/images/3.jpeg', caption:  'Kaylee and Sofia after their visit to the Rivers Rewards shop'},

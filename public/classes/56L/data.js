@@ -1,10 +1,10 @@
 module.exports = {
-  title: '56L',
+  title: '5/6L',
   teachers: [
     {name: 'Louise Landers', image: '/staff/Landers, Louise.jpg'}
   ],
-  poster: '/classes/56L/poster.png',
-  pageNumbers: [0,0],
+  poster: '/posters/Michael Crandon.jpg',
+  pageNumbers: [185, 186],
   colours: 'yr5',
   classPhotos: [
     {image: '/classes/56L/images/1.jpeg', caption: 'Kokoda Training'},

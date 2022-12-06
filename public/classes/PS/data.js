@@ -4,8 +4,8 @@ module.exports = {
       {name: 'Rachel Shepherd', image: '/staff/Shepherd, Rachel.jpg'},
       {name: 'Brooke Dawson', image: '/staff/Dawson, Brooke.png'},
   ],
-  poster: '/classes/PS/poster.png',
-  pageNumbers: [40, 41],
+  poster: '/posters/Coomera Dental Centre.jpg',
+  pageNumbers: [91, 92],
   colours: 'prep',
   tableTextStyle: {
     fontSize: '8pt',
