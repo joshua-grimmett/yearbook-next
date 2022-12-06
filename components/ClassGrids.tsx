@@ -264,7 +264,7 @@ const PhotoClassRightGrid = (props: any) => {
     <div className="grid grid-cols-3 gap-x-[5mm] w-full relative top-[55mm]">
       { props.classPhotos.map((photo: any, i: number) => {
         if (i < props.classPhotos.length - 1) return <ClassPhotoCard height={height} width={width} key={i} classPhoto={photo}/>
-        else return <ClassPhotoCard className='col-span-2' height={height} width={width} key={i} classPhoto={photo}/>
+        else return <ClassPhotoCard className='col-span-2' height={height} width='116mm' key={i} classPhoto={photo}/>
       })}
     </div>
   );
@@ -336,7 +336,7 @@ const PhotoClassPosterRightGrid = ({
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[7]}/>
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[8]}/>
             <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[9]}/>
-            <ClassPhotoCard className={pagePhotoAllocations >= 12 ? '' : 'col-span-2'} height='31.8mm' width='100%' classPhoto={classPhotos[10]}/>
+            <ClassPhotoCard className={pagePhotoAllocations >= 12 ? '' : 'col-span-2'} height='31.8mm' width='116mm' classPhoto={classPhotos[10]}/>
             { pagePhotoAllocations >= 12 &&  <ClassPhotoCard height='31.8mm' width='100%' classPhoto={classPhotos[11]}/> }
           </div>
         </>

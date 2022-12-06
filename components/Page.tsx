@@ -30,8 +30,8 @@ const LargeDoublePage = (props: any) => {
         pageNumber={props.pageNumbers[1]}
         previousPagePhotoAllocations={props.pagePhotoAllocations[0]}
         classPhotos={props.classPhotos.slice(props.pagePhotoAllocations[0])}
-        pagePhotoAllocations={props.pagePhotoAllocations[1]}
-        {...props}/>
+        {...props}
+        pagePhotoAllocations={props.pagePhotoAllocations[1]}/>
     </div>
   )
 }
@@ -165,7 +165,8 @@ const LargeRightPage = ({
   question,
   poster,
   teachers,
-  tableTextStyle
+  tableTextStyle,
+  pagePhotoAllocations
 }: {
   title: string,
   pageNumber: number,
@@ -174,7 +175,8 @@ const LargeRightPage = ({
   question: string,
   poster: string,
   teachers: Teacher[],
-  tableTextStyle: object
+  tableTextStyle: object,
+  pagePhotoAllocations: number
 }) => {
   return (
     <div className="right">
@@ -187,6 +189,7 @@ const LargeRightPage = ({
           poster={poster}/>
         }
         { !tableText && <PhotoClassPosterRightGrid
+          pagePhotoAllocations={pagePhotoAllocations}
           classPhotos={classPhotos.slice(teachers.length > 1 ? 5 : 6)}
           poster={poster}/>
         }

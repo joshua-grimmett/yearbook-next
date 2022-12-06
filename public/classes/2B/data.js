@@ -3,7 +3,7 @@ module.exports = {
   teachers: [
       {name: 'Lisa Barnes', image: '/staff/Barnes, Lisa.jpg'},
   ],
-  poster: '/posters/GC Gymnastics.jpg',
+  poster: null,
   pageNumbers: [119, 120],
   colours: 'yr2',
   classPhotos: [
@@ -15,7 +15,7 @@ module.exports = {
     {image: '/classes/2B/images/6.jpg', caption:  'Ellie, Tiaki and Xander rising to the Mathletics challenge.'},
     {image: '/classes/2B/images/7.jpg', caption:  'Indi loving lolly mixtures.', left: '-23mm', top: '2mm'},
     {image: '/classes/2B/images/11.jpg', caption: 'Lexie and Nyjah making water work.'},
-    {image: '/classes/2B/images/13.jpg', caption: 'Mataio, Raiden and Charlie being safe, respectful learners.', top: '-14mm'},
+    {image: '/classes/2B/images/13.jpg', caption: 'Mataio, Raiden and Charlie being safe, respectful learners.'},
     {image: '/classes/2B/images/10.jpg', caption: 'Leityn and Mathew, go Foxwell.'},
     {image: '/classes/2B/images/8.jpg', caption:  'Kahealani and Lachlan mixing it up.'},
     {image: '/classes/2B/images/12.jpg', caption: 'Mathew and Nyjah, the shop is open.'},
@@ -62,7 +62,7 @@ module.exports = {
   },
   text: `I am so incredibly grateful to have had the twenty-five students that made up the 2B class of 2022.
   <span class="break"></span>
-  Thank you to parents for your support throughout the year. Thank you to the 2B students for being such an amazing class. I will miss seeing you you in 2B. 
+  Thank you to parents for your support throughout the year. Thank you to the 2B students for being such an amazing class. I will miss seeing you in 2B. 
   <span class="break"></span>
   It’s been a pleasure to watch each student grow and change this year. You have within you, everything you need to continue to be successful. You can move mountains if you want. I wish all of my students, much success in the future.
   <span class="break"></span>
