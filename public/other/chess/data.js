@@ -14,7 +14,7 @@ module.exports = {
   <span class="break"></span>
   Thank you sincerely to our staff coaches this year, Mr Burrows, Mrs Hardwick, Mrs Morris and Ms Leese for their support at club each Wednesday afternoon after school, as well as at the various tournaments we competed in. Your commitment made a lasting impression on the students.  Thank you also to Stephen, our Head Coach, who has taken us from strength to strength this year with his leadership, knowledge and skill.,
   <span class="break"></span>
-  Chess Clubbers v Staff: One of our favourite each year is the clubbers v staff challenge. This year was a very close competition with the staff winning 16 games to 14.`
+  Chess Clubbers v Staff: One of our favourite tournament each year is the clubbers v staff challenge. This year was a very close competition with the staff winning 16 games to 14.`
   ],
   images: [
     {image: "/other/chess/3.jpeg"},

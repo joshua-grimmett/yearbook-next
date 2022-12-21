@@ -3,7 +3,7 @@ module.exports = {
   teachers: [
     {name: 'Kelly Mastaglia', image: '/staff/Mastaglia, Kelly.jpg'},
   ],
-  poster: '/classes/4W/poster.png',
+  poster: '/posters/One Little Tree.jpg',
   pageNumbers: [0,0],
   colours: 'yr4',
   classPhotos: [

@@ -26,13 +26,13 @@ module.exports = {
   ],
   tableTextStyle: {
     fontSize: '8.5pt',
-    lineHeight: '10pt'
+    lineHeight: '9.5pt'
   },
   question: 'When I grow up I want to be…',
   tableText: [
     {name: 'Carter Albert', job: 'a barber'},
     {name: 'Sukhmani Badesha', job: 'a doctor'},
-    {name: 'Sam Briggs', job: 'an rchaeologist'},
+    {name: 'Sam Briggs', job: 'an archaeologist'},
     {name: 'Solomon Burns', job: 'a McDonalds worker'},
     {name: 'Allen Catipon', job: 'a gamer on YouTube'},
     {name: 'Scarlett Charity', job: 'a McDonalds worker'},
