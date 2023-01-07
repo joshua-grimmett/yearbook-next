@@ -89,3 +89,7 @@ export { classOf2022 }
 import honourRoll from './public/honourRoll/data';
 
 export { honourRoll }
+
+import contents from './public/contents/data.js';
+
+export { contents }
