@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import { ClassOf2022Grid } from '../components/ClassGrids'
+import { ClassOf2022Grid } from '../../components/ClassGrids'
 
-import Layout from '../components/Layout'
-import { PlainDoublePage, PlainPage } from '../components/Page'
+import Layout from '../../components/Layout'
+import { PlainDoublePage, PlainPage } from '../../components/Page'
 
-import { classOf2022 } from '../metadata'
+import { classOf2022 } from '../../metadata'
 
 const ClassOf2022Template: NextPage = () => {
   const chunkSize = 24;
