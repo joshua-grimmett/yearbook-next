@@ -53,8 +53,3 @@ const HonourRoll = ({ staff, buffer, headers }: { staff: any, buffer: number, he
 }
 
 export default HonourRoll
-
-const HonourRollColumn = (list) => {
-}
-
-export { HonourRollColumn }
